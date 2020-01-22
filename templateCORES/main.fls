@@ -1,41 +1,10 @@
-PWD /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES
-INPUT /home/silas/.texlive2018/texmf-var/web2c/luatex/lualatex.fmt
-INPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.tex
-OUTPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.log
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-basic.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-lua.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-package.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-lpeg.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-function.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-string.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-table.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-boolean.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-number.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-math.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-io.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-os.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-file.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-gzip.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-md5.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-dir.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-unicode.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-url.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-set.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-compat.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-extended.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-str.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-fil.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-tab.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-sto.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-prs.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-dim.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-jsn.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-trac-inf.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-lua.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-deb.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-tpl.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-sta.lua
-INPUT /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-characters.lua
+PWD /home/silas/Documents/Latex-Projects/templateCORES
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/silas/Documents/Latex-Projects/templateCORES/main.tex
+OUTPUT /home/silas/Documents/Latex-Projects/templateCORES/main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
@@ -58,7 +27,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-INPUT /home/silas/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc
+INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -69,8 +39,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
@@ -87,8 +57,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
@@ -145,7 +115,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-INPUT /usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
@@ -156,8 +125,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
@@ -232,7 +201,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty
-INPUT /home/silas/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-regular.luc
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty
@@ -242,6 +211,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonbook.pdf
+OUTPUT /home/silas/Documents/Latex-Projects/templateCORES/main.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonbook.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonbook.20.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonbook.20.pdf
@@ -281,69 +251,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
 INPUT /usr/share/texlive/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
-INPUT /usr/share/texlive/texmf-dist/tex/generic/unicode-data/CaseFolding.txt
-INPUT /usr/share/texlive/texmf-dist/tex/generic/unicode-data/CaseFolding.txt
-INPUT /usr/share/texlive/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt
-INPUT /usr/share/texlive/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg
-INPUT /home/silas/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-bold.luc
-INPUT /home/silas/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-oblique.luc
-INPUT /home/silas/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/cabin-regular.luc
-INPUT /home/silas/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/cabin-bolditalic.luc
-INPUT /home/silas/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/cabin-bold.luc
-INPUT /home/silas/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/cabin-italic.luc
-INPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.aux
-INPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.aux
-OUTPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.aux
-INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.out
-INPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.out
-INPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.out
-INPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.out
-OUTPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.out
-OUTPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
-INPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.nav
-INPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.nav
-INPUT /home/silas/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmsans8-regular.luc
-INPUT /home/silas/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmsans12-regular.luc
-OUTPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.nav
-OUTPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.toc
-OUTPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.snm
-INPUT /home/silas/Documents/Silas_Personal_Files/Latex Projects/templateCORES/main.aux
