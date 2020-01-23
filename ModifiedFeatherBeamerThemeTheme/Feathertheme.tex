@@ -7,26 +7,30 @@
 % If you want to change the colors of the various elements in the theme, edit and uncomment the following lines
 
 % Change the bar colors:
-\setbeamercolor{Feather}{fg=NavyBlue!20,bg=NavyBlue}
+\setbeamercolor{Feather}{fg=redCORES,bg=white}
 
 % Change the color of the structural elements:
-\setbeamercolor{structure}{fg=NavyBlue}
+\setbeamercolor{structure}{fg=red}
 
 % Change the frame title text color:
-\setbeamercolor{frametitle}{fg=black!5}
+\setbeamercolor{frametitle}{fg=darkgray}
 
 % Change the normal text colors:
 \setbeamercolor{normal text}{fg=black!75,bg=gray!5}
 
 %% Change the block title colors
-\setbeamercolor{block title}{use=Feather,bg=Feather.fg, fg=black!90} 
+% \setbeamercolor{block title}{use=Feather,bg=Feather.fg, fg=black!90} 
+\setbeamercolor{block title}{fg=black,bg=redCORES}
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{author}{fg=gray}
+\setbeamercolor{institute}{fg=gray}
 
 
 % Change the logo in the upper right circle:
 %\renewcommand{\logofile}{example-grid-100x100pt} 
 %% This is an image that comes with the LaTeX installation
 % Adjust scale of the logo w.r.t. the circle; default is 0.875
-% \renewcommand{\logoscale}{0.55}
+\renewcommand{\logoscale}{1}
 
 % Change the background image on the title and final page.
 % It stretches to fill the entire frame!
@@ -41,7 +45,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage[T1]{fontenc}
-% \usepackage{helvet}
+\usepackage{helvet}
 
 %% Load different font packages to use different fonts
 %% e.g. using Linux Libertine, Linux Biolinum and Inconsolata
@@ -49,8 +53,8 @@
 % \usepackage{zi4}
 
 %% e.g. using Carlito and Caladea
-\usepackage{carlito}
-\usepackage{caladea}
+% \usepackage{carlito}
+% \usepackage{caladea}
 \usepackage{zi4}
 
 %% e.g. using Venturis ADF Serif and Sans
