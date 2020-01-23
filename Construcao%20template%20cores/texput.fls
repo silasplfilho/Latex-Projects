@@ -1,0 +1,6 @@
+PWD /home/silas/Documents/Latex-Projects/Construcao%20template%20cores
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+OUTPUT /home/silas/Documents/Latex-Projects/Construcao%20template%20cores/texput.log
