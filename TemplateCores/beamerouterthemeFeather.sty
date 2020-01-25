@@ -72,21 +72,22 @@
 % radius of the logo
 
                \newlength{\beamer@logoradius}
-               \setlength{\beamer@logoradius}{0.95\beamer@height/2}
+               \setlength{\beamer@logoradius}{1\beamer@height/2}
 
 %----------------------------------------------------------------------------------------------------------------------------------
 
 % width of the border
 
                \newlength{\beamer@borderwidth}
-               \setlength{\beamer@borderwidth}{.85mm}  % as small is the thickness of the border the whole circle goes up
+               \setlength{\beamer@borderwidth}{.25mm}  % as small is the thickness of the border the whole circle goes up
  
 %----------------------------------------------------------------------------------------------------------------------------------
 
 % inner radius of border of the logo frame
 
                \newlength{\beamer@logoinnerradius}
-               \setlength{\beamer@logoinnerradius}{0.85\beamer@logoradius} 
+            %    \setlength{\beamer@logoinnerradius}{0.85\beamer@logoradius}
+               \setlength{\beamer@logoinnerradius}{1.8\beamer@logoradius} 
 
 %----------------------------------------------------------------------------------------------------------------------------------
 
@@ -100,7 +101,7 @@
 % radius of the counters
 
                \newlength{\beamer@counterradius}
-               \setlength{\beamer@counterradius}{\beamer@logoinnerradius/2+\beamer@logoouterradius/2}
+            %    \setlength{\beamer@counterradius}{\beamer@logoinnerradius/2+\beamer@logoouterradius/2}
 
 %----------------------------------------------------------------------------------------------------------------------------------
 
@@ -161,7 +162,7 @@
 
                 \newcommand{\featherheaderbackground}[0]
 {
-        \begin{tikzpicture}[overlay]
+            \begin{tikzpicture}[overlay]
 
                 \coordinate (UL) at (0,0); %upper left corner of the slide
                 \coordinate (HLR) at (\paperwidth,-0.9\beamer@height); %lower right of the header
@@ -233,16 +234,16 @@
 
 %% draw the arc
                 
-                % \draw[color=Feather.bg,line width=0.2*\beamer@borderwidth] ([xshift=\beamer@counterradius] logopos)  arc[radius=\beamer@counterradius, start angle=0, end angle=\progress];
-                % \fill[fill=Feather.bg] ([shift={(\progress:\beamer@counterradius)}] logopos) circle (0.25\beamer@borderwidth);
+                \draw[color=Feather.bg,line width=0.2*\beamer@borderwidth] ([xshift=\beamer@counterradius] logopos)  arc[radius=\beamer@counterradius, start angle=0, end angle=\progress];
+                \fill[fill=Feather.bg] ([shift={(\progress:\beamer@counterradius)}] logopos) circle (0.25\beamer@borderwidth);
 
 %----------------------------------------------------------------------------------------------------------------------------------
 
 %% place the current frame number
 
-                \node[fill=normal text.bg,draw=Feather.fg,thick,circle,minimum width=2*\beamer@borderwidth] at ([xshift=\beamer@counterradius]logopos) {{\usebeamercolor[fg]{normal text}\insertframenumber}};
-                \fi      
-                \ifx\beamer@progressstyle\beamer@progressfixedCircCnt % the circular counter with a fixed counter
+                % \node[fill=normal text.bg,draw=Feather.fg,thick,circle,minimum width=2*\beamer@borderwidth] at ([xshift=\beamer@counterradius]logopos) {{\usebeamercolor[fg]{normal text}\insertframenumber}};
+                % \fi      
+                % \ifx\beamer@progressstyle\beamer@progressfixedCircCnt % the circular counter with a fixed counter
 
 %----------------------------------------------------------------------------------------------------------------------------------
 
@@ -258,7 +259,7 @@
 
 %% draw the arc
 
-                % \draw[color=Feather.bg,line width=0.5*\beamer@borderwidth] ([xshift=\beamer@counterradius] logopos) arc (0:\progress:\beamer@counterradius);
+                \draw[color=Feather.bg,line width=0.5*\beamer@borderwidth] ([xshift=\beamer@counterradius] logopos) arc (0:\progress:\beamer@counterradius);
 
 %----------------------------------------------------------------------------------------------------------------------------------
 
