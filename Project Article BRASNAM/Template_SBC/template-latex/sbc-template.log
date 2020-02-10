@@ -1,11 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.1.13)  25 JAN 2020 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.22)  10 FEB 2020 15:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/silas/Documents/Silas_Personal_Files/Latex Projects/modelosparapublicaodeartigos/Template_SBC/template-latex/sbc-template.tex"
-(/home/silas/Documents/Silas_Personal_Files/Latex Projects/modelosparapublicaodeartigos/Template_SBC/template-latex/sbc-template.tex
-LaTeX2e <2018-04-01> patch level 5
+**sbc-template.tex
+(/home/silas/Documents/Latex-Projects/Project Article BRASNAM/Template_SBC/template-latex/sbc-template.tex
+LaTeX2e <2018-04-01> patch level 4
+Babel <3.20> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -22,10 +23,10 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/home/silas/Documents/Silas_Personal_Files/Latex Projects/modelosparapublicaodeartigos/Template_SBC/template-latex/sbc-template.sty
+) (/home/silas/Documents/Latex-Projects/Project Article BRASNAM/Template_SBC/template-latex/sbc-template.sty
 Package: sbc-template 2001/06/09
  (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
+Package: geometry 2018/03/24 v5.7 Page Geometry
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
@@ -50,9 +51,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
+Package: caption 2017/03/19 v3.3-145 Customizing captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
+Package: caption3 2018/04/15 v1.7-167 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen111
 \captionmargin@=\dimen112
@@ -104,13 +105,13 @@ Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/06/05 3.22 The Babel package
+Package: babel 2018/05/02 3.20 The Babel package
  (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/06/05 3.22 Babel switching mechanism
+File: switch.def 2018/05/02 3.20 Babel switching mechanism
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
  (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/06/05 3.22 Babel common definitions
+File: babel.def 2018/05/02 3.20 Babel common definitions
 \babel@savecnt=\count94
 \U@D=\dimen125
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
@@ -120,7 +121,7 @@ File: babel.def 2018/06/05 3.22 Babel common definitions
 Package babel Info: Making " an active character on input line 145.
 ))
 
-/home/silas/Documents/Silas_Personal_Files/Latex Projects/modelosparapublicaodeartigos/Template_SBC/template-latex/sbc-template.tex:8: LaTeX Error: Option clash for package inputenc.
+/home/silas/Documents/Latex-Projects/Project Article BRASNAM/Template_SBC/template-latex/sbc-template.tex:8: LaTeX Error: Option clash for package inputenc.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -137,7 +138,7 @@ Adding the global options:
 to your \documentclass declaration may fix this.
 Try typing  <return>  to proceed.
 
-(/home/silas/Documents/Silas_Personal_Files/Latex Projects/modelosparapublicaodeartigos/Template_SBC/template-latex/sbc-template.aux)
+(/home/silas/Documents/Latex-Projects/Project Article BRASNAM/Template_SBC/template-latex/sbc-template.aux)
 \openout1 = `sbc-template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -224,12 +225,7 @@ Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+)))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -269,7 +265,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
  [1
 
-{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Warning: Reference `fig:exampleFig1' on page 2 undefined on input line 106.
 
@@ -301,7 +297,7 @@ LaTeX Warning: Reference `sec:figs' on page 2 undefined on input line 122.
 
 LaTeX Warning: Reference `sec:figs' on page 2 undefined on input line 122.
 
-[2 </home/silas/Documents/Silas_Personal_Files/Latex Projects/modelosparapublicaodeartigos/Template_SBC/template-latex/fig1.jpg>]
+[2 </home/silas/Documents/Latex-Projects/Project Article BRASNAM/Template_SBC/template-latex/fig1.jpg>]
 <table.jpg, id=19, 365.2044pt x 217.2918pt>
 File: table.jpg Graphic file (type jpg)
 <use table.jpg>
@@ -318,7 +314,7 @@ LaTeX Warning: Citation `boulic:91' on page 3 undefined on input line 154.
 LaTeX Warning: Citation `smith:99' on page 3 undefined on input line 154.
 
 No file sbc-template.bbl.
-[3 </home/silas/Documents/Silas_Personal_Files/Latex Projects/modelosparapublicaodeartigos/Template_SBC/template-latex/fig2.jpg> </home/silas/Documents/Silas_Personal_Files/Latex Projects/modelosparapublicaodeartigos/Template_SBC/template-latex/table.jpg>] (/home/silas/Documents/Silas_Personal_Files/Latex Projects/modelosparapublicaodeartigos/Template_SBC/template-latex/sbc-template.aux)
+[3 </home/silas/Documents/Latex-Projects/Project Article BRASNAM/Template_SBC/template-latex/fig2.jpg> </home/silas/Documents/Latex-Projects/Project Article BRASNAM/Template_SBC/template-latex/table.jpg>] (/home/silas/Documents/Latex-Projects/Project Article BRASNAM/Template_SBC/template-latex/sbc-template.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -327,15 +323,15 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 4442 strings out of 492701
- 67263 string characters out of 6134504
- 143067 words of memory out of 5000000
- 8242 multiletter control sequences out of 15000+600000
+ 4410 strings out of 492648
+ 66407 string characters out of 6132015
+ 142544 words of memory out of 5000000
+ 8219 multiletter control sequences out of 15000+600000
  22659 words of font info for 46 fonts, out of 8000000 for 9000
- 1137 hyphenation exceptions out of 8191
- 43i,10n,40p,962b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 1141 hyphenation exceptions out of 8191
+ 43i,10n,40p,845b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/home/silas/Documents/Silas_Personal_Files/Latex Projects/modelosparapublicaodeartigos/Template_SBC/template-latex/sbc-template.pdf" (3 pages, 208129 bytes).
+Output written on "/home/silas/Documents/Latex-Projects/Project Article BRASNAM/Template_SBC/template-latex/sbc-template.pdf" (3 pages, 208144 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
