@@ -1,0 +1,19 @@
+Artigo que analisa os apectos de influencia social online, e o papel da semantica social dentro de redes sociais online.
+Especificamente como influencia pode ser medida e "predizida" e que tipos de metodos existem para medir influencia e quais sao os dominios de aplicacao.
+# -----
+Os autores diferem propagacao e difusao. Difusao é o espalhamento da informacao a partir de um no inicial em direcao ao restante da rede.
+Propagacao leva em consideracao igualmente os nos intermediarios, bem como se eles receberao, processarao, retransmitirao ou bloquearao a informacao.
+# -----
+Metricas de Influencia - secao 3.1
+ref 123, cita influencia social, similaridade de entes, e equivalencia estrutural online. 
+Metricas de Informacao Social Direta - secao 3.1.1
+ref 12 apresenta 3  tipos de infliuencia em usuarios do twitter: n de seguidores, n de retweets e n de mencoes.
+Metricas baseadas em hyperlink - secao 3.1.2
+
+# -----
+Fluxo da Informacao e Influencia - sec 3.2
+
+# -----
+Ideias durante a leitura:
+-> Incluir medidas de centralidade de autovetor e pagerank dentro dos datasets de depressao.
+-> Tentar encontrar medidas de influencia e de propagacao que sejam viaveis de aplicacao dentro do dataset proposto.
