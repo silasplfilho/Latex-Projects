@@ -1,4 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % NIH Grant Proposal for the Specific Aims and Research Plan Sections
 % LaTeX Template
 % Version 1.1 (26/12/19)
@@ -40,8 +39,9 @@
 \usepackage[top=0.5in,bottom=0.5in,left=0.5in,right=0.5in]{geometry} % Page margins
 
 \usepackage{rotating}
-\pagestyle{empty} % Suppress headers and footers
+\newcommand{\rulesep}{\unskip\ \vrule\ }
 
+\pagestyle{empty} % Suppress headers and footers
 \hyphenation{ionto-pho-re-tic iso-tro-pic fortran} % Specifies custom hyphenation points for words or words that shouldn't be hyphenated at all
 
 %----------------------------------------------------------------------------------------
@@ -57,7 +57,7 @@ A depressão é uma das doenças mentais mais relatadas no mundo. Algumas pessoa
 A Organização \emph{Global Burden Disease} indica os transtornos depressivos como a terceira principal causa de incapacidade \cite{IHME}. Desde 1990, foi a quarta causa principal. 
 Transtornos depressivos são indicados como a terceira principal causa de incapacidade\footnote{Disponível em http://ihmeuw.org/51aj}, como confirmado também por \cite{brody2018prevalence}. No entanto, em contraste com essa estabilidade, a depressão afeta certos grupos mais do que outros. Como mulheres para homens, europeus para africanos e pessoas com mais renda. É apresentado no Apêndice a Figura \ref{fig:depressionmap}, demonstrando essa estabilidade na evolução dos caos nos diferentes continentes.
 
-A Organização Mundial de Saúde (WHO) apresenta que cerca de 300 milhões de pessoas de diferentes idades sofrem de algum nível de depressão\footnote{www.who.int/en/news-room/fact-sheets/detail/mental-disorders}. 
+A Organização Mundial de Saúde (OMS) apresenta que cerca de 300 milhões de pessoas de diferentes idades sofrem de algum nível de depressão\footnote{www.who.int/en/news-room/fact-sheets/detail/mental-disorders}. 
 Alguns desses sintomas são, por exemplo, humor deprimido na maior parte do dia, perda de interesse em atividades regulares, perda de peso e insônia.
 O Ministério da Saúde no Brasil apresenta que 11,5 milhões de pessoas são afetadas pela depressão\footnote{www.blog.saude.gov.br/index.php/materias-especiais/52516-mais-de-onze-milhoes-de-brasileiros-tem-depressao}.
 
@@ -92,34 +92,35 @@ Ye em \cite{info:doi/10.2196/19866} lista diversas formas de utilização da com
 
 Baseado em \cite{info:doi/10.2196/19866}, uma das tarefas listas é a análise de grandes conjuntos de dados. Com a coleta de informações sobre uma população e grupos, cria-se a chance de aproximar os recursos necessários para indivíduos em risco. 
 
+\subsection*{Monitoramento Mídias Sociais}
 \textit{Infodemiologia} e \textit{Detecção Digital de Doenças} são termos correlatos para descrever o uso de plataformas e ferramentas digitais para melhorar a saúde social. Eles podem ser traduzidos como esforços para combater epidemias, identificar indivíduos em risco e comunicar doenças urgentes de candidatos. O uso da tecnologia apóia diretamente instituições, profissionais e até ajuda as pessoas a se conscientizarem de algumas doenças \cite{Horvitz}.
 
-
-\textbf{Monitoramento MS}
-
-As mídias sociais provaram que as pessoas estão usando plataformas online para publicar seus interesses e preferências sociais para então compartilhar com outros usuários.
+Dentro das tecnologias que podem ser utilizadas no domínio da saúde são as mídias sociais. Nelas, seus usuários publicam seus interesses e preferências sociais para então compartilhar com outros usuários. Elas se encaixam nos dois conceitos definidos acima. Podendo assim servir como fonte de informação e monitoramento para autoridades políticas e também para a comunidade científica. Podendo 
 Através da mídia social, um usuário pode se conectar a seus amigos, parentes e até desconhecidos.
 O conteúdo gerado nessas plataformas se parece com boas fontes de informação que podem ajudar ao lidar com a detecção ou conexão de doenças entre um psicólogo e um paciente depressivo.
-Devido ao cenário descrito acima, identificar e atender alguém que possa ser um potencial paciente depressivo, de maneira rápida e discreta, parece ser muito útil tanto para o paciente quanto para o profissional.
-A tarefa de identificar alguma doença, mesmo que não seja depressão, pode ser desafiadora, mas ao mesmo tempo relevante para investigar se é possível identificar sinais, sintomas de comportamento depressivo nas plataformas de mídia social.
-Devido à abundância de oferta de dados, selecione o que é mais eficaz, preciso e representativo. Portanto, escolha uma técnica confiável e uma análise consistente do método pode exigir uma grande quantidade de pesquisas.
 
+\subsection*{Depressão}
+% The 11th International Disease Classification (ICD 11) classifies depression as a disease when it is diagnosed in someone’s behavior. An event where the person has lost something e.g. job, some close person, etc. could start depression symptoms. This disease is also dangerous because of its extreme consequences. Depression, according to ICD 11, can lead to suicide ideation and suicide as consequence\cite{american2013diagnostic}. As a first step in order to investigate the problem of identification of depressive people on social media.
 
-\textbf{Deteccao previa de depressao}
+A 11ª Classificação Internacional de Doenças (CID 11) classifica a depressão como uma doença diagnosticada em relação ao comportamento de alguém. Um evento em que a pessoa perdeu algo, trabalho, alguma pessoa próxima, etc. podem iniciar sintomas de depressão. Esta doença também é perigosa por causa de suas consequências extremas. A depressão, segundo a CID 11, pode levar à ideação suicida e em consequência ao suicídio \cite{american2013diagnostic}.
 
-\textbf{Dificuldades Tratamento da Depressão}
-Uma pequena amostra do impacto psicológico da pandemia foi a corrida aos mercados que ocorreu em diversos países.  
+Embora depressão seja o nome comum na sociedade, o Manual de Diagnóstico de Transtornos Mentais (DSM-V) detalha diferentes tipos de depressão. O mais comum e mais geral é o transtorno depressivo maior (TDM), embora cada variante da depressão seja coberta pelo termo \textit{Transtorno Depressivo}. As alternativas desse filho do transtorno são \textit{transtorno disruptivo da desregulação do humor}, \textit{Transtorno Depressivo Persistente (distimia)} e \textit{transtorno disfórico pré-menstrual}. O DSM-V também lista as características de diagnóstico de cada variante. Podemos listar critérios de diagnóstico de TDM, por exemplo insônia ou excesso de sono, humor depressivo na maior parte do dia, perda de interesse pelas atividades e perda de peso. O DSM-V também destaca que um grupo de pelo menos 5 sintomas deve ocorrer em um período de duas semanas.
+Os sintomas e características da depressão são muito semelhantes à descrição de Freud da melancolia \cite{freud1917mourning}.
 
+\subsection*{Dificuldades Tratamento da Depressão}
+Além 
+Além das dificuldades em conseguir identificar precisamente 
 
 A resposta do psicológico de uma pessoa à pandemia e suas consequências incitam o questionamento  .
 
 sindrome respiratoria - sars
 covid
 
-
-\subsection*{Depressão}
-The 11th International Disease Classification (ICD 11) classifies depression as a disease when it is diagnosed in someone’s behavior. An event where the person has lost something e.g. job, some close person, etc. could start depression symptoms. This disease is also dangerous because of its extreme consequences. Depression, according to ICD 11, can lead to suicide ideation and suicide as consequence\cite{american2013diagnostic}.
-As a first step in order to investigate the problem of identification of depressive people on social media.
+\subsection*{Detecção prévia de depressao}
+Devido ao cenário descrito acima, identificar e atender alguém que possa ser um potencial paciente depressivo, de maneira rápida e discreta, parece ser muito útil tanto para o paciente quanto para o profissional. Não apenas com
+A tarefa de identificar alguma doença, mesmo que não seja depressão, pode ser desafiadora, mas ao mesmo tempo relevante.Investigar se é possível identificar sinais, sintomas de comportamento depressivo nas plataformas de mídia social.
+Devido à abundância de dados, pode tornar-se difícil o dado representativo. Portanto, escolha uma técnica confiável e uma análise consistente do método pode exigir uma grande quantidade de pesquisas.
+% Como primeiro passo, a fim de investigar o problema de identificação de pessoas depressivas nas redes sociais.
 
 % % 1 parágrafo - Depressão é considerada epidemia (o que é, crescimento a nível mundial, dados Brasil)
 % % 1 parágrafo - Depressão x COVID 
@@ -127,78 +128,133 @@ As a first step in order to investigate the problem of identification of depress
 % % Pandemia - dificuldade de tratamento 
 % % 1 ou 2 parágrafos - Monitoração das mídias sociais tem ajudado na detecção de depressão - como? Colocar as referências
 % % Detecção online da depressão, durante a pandemia, auxiliado a um teleatendimento pode salvar vidas
+\newpage
 
 \section*{Proposta de Pesquisa}
+% The proposed solution, in order to create an artifact, faces different stages that can offer challenges to the research to be accomplished. Since the final product is the hability to identify depression symptoms. We must pass by stages like obtain, process, model and persist the data from social network sites in a structure that can allow the further steps to retrieve this data for future analysis. Our method aims to identify a depressive user inserted in a social network in a reliable, consistent and unobtrusive manner. Figure \ref{fig:proposalgraph} depicts how we intend to achieve it. 
+
+A solução proposta, para a criação de um artefato, enfrenta diferentes etapas que podem oferecer desafios à pesquisa a ser realizada. Já o produto final é a habilidade de identificar sintomas depressivos. Devemos passar por etapas como obter, processar, modelar e persistir os dados de sites de redes sociais em uma estrutura que possa permitir as próximas etapas para recuperar esses dados para análises futuras.
+Nosso método visa identificar um usuário depressivo inserido em uma rede social de forma confiável, consistente e discreta. A Figura \ref{fig:proposalgraph} mostra um esquema conceitual de pretendemos organizar as etapas da pesquisa. 
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[keepaspectratio, width=.625\columnwidth]{Figures/conceptualModel.eps}
+  \caption{Esquema conceitual da abordagem proposta.}
+  \label{fig:proposalgraph}
+\end{figure}
+
+% Module 1 represents the phase where we construct the datasets to be explored in initial and later stages. This module is constructed mainly by crawlers and provides us depressive user's information concerning their vocabulary, content behavior and their preferences about relationships with other users. Afterwards datasets construction, through data modeling, Model 1 provides to Module 2 datasets from websites where depression is a key topic. The second module comprehends the data analysis and it splits this process into two substages. Both substages intend to abstract the implicit and explicit user's content. We represent Modules 1 and 2 as a cyclic process mainly due to the improvement of analysis, and evolution of datasets concerning length, complexity, and more abundat information.
+O Módulo 1 representa a fase em que construímos os conjuntos de dados a serem explorados nos estágios iniciais e posteriores. Este módulo abrange a construção de datasets a serem analisados. Sua construção se dá por meio de crawlers e nos fornece informações sobre o usuário depressivo como seu vocabulário, comportamento de conteúdo e suas preferências sobre relacionamentos com outros usuários. Tais datasets devem possuir distintas proveniências para assim evitar um viés do dataset e consequentemente nas análises realizadas.
+Atualmente, dois coletores foram desenvolvidos para obter dados dos sites \textit{HealingWell} e \textit{Reddit}. Por se tratar de uma pesquisa acadêmica, não temos a intenção de publicar os nomes dos autores e suas informações pessoais. No momento, temos um conjunto de dados com cerca de 1,5 GB de informações coletadas. O primeiro conjunto de dados está relacionado ao fórum de depressão do site da HealingWell \footnote{www.healingwell.com/community/default.aspx?f=19}. Coletamos 3075 tópicos postados e suas respectivas postagens, totalizando 18.450 postagens respondidas.
+
+Posteriormente, a construção dos conjuntos de dados, por meio da modelagem de dados, o Modelo 1 fornece ao Módulo 2 conjuntos de dados de sites onde a depressão é um tópico chave. O segundo módulo compreende a análise dos dados e divide este processo em dois subestágios. Ambos os subestágios pretendem abstrair o conteúdo implícito e explícito do usuário. Os Módulos 1 e 2 são representados como um processo cíclico principalmente devido ao aprimoramento da análise e evolução dos conjuntos de dados em relação ao comprimento, complexidade e informações mais abundantes.  
+
+% The screening substage comprehends a set of metrics that rely on topological analysis. Through social network analysis, we can understand how entities from a social network are connected. The topology study, through the use of social network analysis, can lead to the choice of specific users to have a better comprehension of them and their influence \cite{Razis2020}. We can list as examples three different types of relevant analysis, \textit{Social Influence Analysis}, \textit{Node Classification} and \textit{Community Detection} \cite{aggarwal2011socialnetwork}. With these analysis, it would be possible to have a better understanding of the connections around a depressive person.
+O primeiro subestágio, de triagem, compreende um conjunto de métricas baseadas na análise topológica dos dados. Por meio da análise de redes sociais, podemos entender como as entidades de uma rede social estão conectadas. O estudo da topologia, através do uso da análise de redes sociais, pode levar à escolha de usuários específicos para melhor compreensão deles e sua influência \cite{Razis2020}. Podemos listar como exemplos três tipos diferentes de análises relevantes, \textit{Análise de Influência Social}, \textit{Classificação de Nó} e \textit{Detecção de Comunidade} \cite{aggarwal2011socialnetwork}. Com essas análises, seria possível ter um melhor entendimento das conexões em torno de uma pessoa depressiva. O trabalho de Rosenquist et.al. por exemplo consegue mapear dados de questionários psicométricos como grafos (que é a forma de representação de redes sociais). A partir de então os autores conseguem identificar o espalhamento da doença num determinado grupo \cite{Rosenquist2011}.
+
+
+% O subestágio de análise é dividido em três subprocessos e é representado na Figura \ref{fig:parsing_stage}. 
+Bem como outros trabalhos similares, também pretendemos aplicar a análise de texto sobre os conjuntos de dados. Com base no trabalho de \cite{Nolasco2016}, pretendemos identificar quais são os principais tópicos de cada usuário em uma plataforma de mídia social. Após a identificação do tópico, para cada usuário, encontraremos a correlação entre os tópicos e mapearemos os termos em um gráfico de polaridade. 
+% O gráfico de polaridade pode ajudar a identificar se as palavras e termos mais usados ​​por um usuário tendem a ser positivos ou negativos. 
+Trabalhos relacionados mostraram que pessoas depressivas costumam manipular palavras mais negativas. Isso reflete a baixa auto-visão desse grupo. Com os gráficos de polaridade de cada usuário, a terceira etapa pretende analisar como esses gráficos evoluíram. Dessa forma, será possível verificar se o discurso de alguém se tornou mais positivo ou negativo. A análise de séries temporais parece ser importante, visto que alguém é considerado deprimido se um conjunto de sintomas já ocorreu por um determinado período de tempo. Isso poderia ajudar a explicar melhor o fenômeno da depressão nas redes sociais.
+
+\begin{figure}
+  \centering
+      \includegraphics[trim=0 31 0 0, clip, width=0.265\textwidth]{Figures/method_1.eps} \hfill
+      \rulesep
+  % \centering
+      \includegraphics[trim=0 31 0 0, clip, width=0.265\textwidth]{Figures/method_2.eps} \hfill
+      \rulesep
+  % \centering
+      \includegraphics[trim=0 31 0 65, clip, width=0.265\textwidth]{Figures/method_3.eps} 
+
+      % \caption{The Parsing stage's phases. Respectively, extraction of main topics from user content; Polarity of discovered topics; Evolution of polarity graphs over time.}
+      \caption{As fases da etapa de Análise. Respectivamente, extração dos tópicos do conteúdo de um usuário; Polaridade dos tópicos descobertos; Evolução dos grafos de polaridade ao longo do tempo.}
+      \label{fig:parsing_stage}
+\end{figure}
+
+À medida que as iterações progridem, o Módulo 2 constrói um conjunto de heurísticas extraídas da análise. Essas heurísticas são testadas por profissionais de pesquisa e comparadas à psicometria.
+O conjunto de heurísticas também é validado no Módulo 3. Neste módulo, pretendemos validar as heurísticas não apenas aplicando-as em um conjunto de dados mais genérico e mais amplo, mas também testando em um cenário clínico de psicologia. Dessa forma, pretendemos corroborar a dinâmica e o comportamento da primeira iteração que foi abstraída de conjuntos de dados particulares.
 % % (2 páginas) Proposta de Tese
+
+\section*{Contribuições Esperadas}
+A contribuição final esperada aumentar a área de conhecimento da computação na saúde mental. Devido às amplas implicações da depressão na saúde das pessoas e ao grande uso das mídias sociais, visa-se utilizar os dados coletados com maior precisão e confiabilidade para assim conseguir auxiliar profissionais e autoridades na tomada de decisões.
+É proposto uma abordagem diferente sobre como lidar com a depressão com a ajuda de SNA e análise de texto.
+Ressaltamos que a análise de redes sociais compreende a estrutura topológica. Portanto, a principal diferença em relação às pesquisas anteriores e à nossa proposta, é usar o conhecimento e as idéias da psicologia para melhorar o desempenho da classificação com SNA e análise textual.
+
+Com esse experimento, iríamos entender o ambiente onde a doença depressão é o principal tópico de discussão, consequentemente, reproduziríamos e validaríamos os resultados e comportamentos das conversas sobre a depressão. % A validação é principalmente dirigida à análise textual e de vocabulário. Embora pretendamos explorar profundamente a análise de redes sociais.
+
+Este trabalho ainda está desenvolvendo a metodologia e as análises que poderão ser realizadas. As contribuições esperadas estão relacionadas à informática e à psicologia. Para a ciência da computação, esperamos que o emprego de métricas computacionais como análise de redes sociais e classificação de tópicos possa ajudar as pessoas a adquirir uma compreensão mais precisa de como o fenômeno da depressão acontece nas redes sociais e também como as redes sociais refletem a vida real.
+Do ponto de vista da pesquisa em saúde (psicologia, medicina), nossa abordagem poderia melhorar a forma como o diagnóstico de depressão é realizado. Isso pode ajudar as pessoas a terem uma saúde melhor por meio do uso da tecnologia.
+% A fase experimental descreve os resultados da análise de redes sociais (SNA). Selecionamos alguns grupos de métricas para entender o que são entidades de rede com os maiores valores de métricas.
+
 % % Falar da proposta a nível geral
 
 \section*{Trabalhos Correlatos}
-
-Although depression is the common name in society, the Manual of Mental Disorder Diagnostic (DSM-V) details different types of depression. The most common and more general is the major depressive disorder (MDD), though each variant of depression is covered by the term \textit{Depressive Disorder}. Alternatives of that kid of disorder are \textit{transtorno disruptivo da desregulação do humor}, \textit{transtorno depressivo persistente (distimia)} and \textit{transtorno disfórico pré-menstrual}. The DSM-V also lists the characteristics for diagnosis of each variant. We can list from MDD diagnosis criterias e.g. insomnia or over sleep, depressive mood in most part of the day, lost of interest in activities and weight loss. DSM-V also highlights that a group of at least 5 symptoms must occur in a time period of two weeks.
-Depression symptoms and characteristics are very similar to Freud's description of melancholia \cite{freud1917mourning}. 
-
-\subsection{Current Approaches}\label{subsec:srl}
-For the literature selection, we have applied a systematic literature review \textbf{(SLR)} in order to have a deeper insight from the most recent research that tackles depression detection in social media. 
-SLR allows to create protocols that can be reused by other researchers and therefore give to research transparency and reproducibility.
+% For the literature selection, we have applied a systematic literature review \textbf{(SLR)} in order to have a deeper insight from the most recent research that tackles depression detection in social media. SLR allows to create protocols that can be reused by other researchers and therefore give to research transparency and reproducibility.
 % It allows, whether the protocols are respected, 
-This stage is under construction yet and it is intended to include two more bases. The SLR until this moment was done searching for articles in ACM and IEEE bases. It has been searched the string \textit{(``Social Media" OR ``Social Network" OR ``Complex Network" ) AND (Depression OR ``Major Depressive Disorder")}. Including only works from 2013 until 2018, from computing area which have used social media as a data source. The inclusion and exclusion criteria are listed below in Table \ref{tab:rslCriterias}. At the final stage, there was a total number of 47 selected papers. There were 22 papers from ACM Library and 25 papers from IEEE Explore.
+% This stage is under construction yet and it is intended to include two more bases. The SLR until this moment was done searching for articles in ACM and IEEE bases. It has been searched the string \textit{(``Social Media" OR ``Social Network" OR ``Complex Network" ) AND (Depression OR ``Major Depressive Disorder")}. Including only works from 2013 until 2018, from computing area which have used social media as a data source. The inclusion and exclusion criteria are listed below in Table \ref{tab:rslCriterias}. At the final stage, there was a total number of 47 selected papers. There were 22 papers from ACM Library and 25 papers from IEEE Explore.
 
-\begin{center}
-  \begin{table}[h!]
-  \centering
-  \resizebox{.6\columnwidth}{!}{
-    \begin{tabular}{c|c}
-      \textbf{Inclusion}          & \textbf{Exclusion}                      \\ \hline
-      Directly tackles depression & Out of 2013-2018 scope                  \\ %\hline
-      Have computational approach & Not written in english or portuguese    \\ %\hline
-      Attend both approaches      & It is not a primary study               \\ %\hline
-      -                           & It does not have abstract               \\ %\hline
-      -                           & It does not have computing contribution \\ %\hline
-      -                           & It has less than 4 pages                \\ %\hline
-    \end{tabular}}
-    \caption{SLR Criterias for inclusion and exclusion.}
-    \label{tab:rslCriterias}
-  \end{table}
-\end{center}
-% \vspace*{-12pt}
-It may not seem clearly, but can be listed main objectives from read articles are: identify what symptoms are searchable in social media and will compose a model as features; create a model which classifies an unseen user as potential depressive or not. The problem of dealing with depression and social media can be understand as a search for people who suffer the symptoms of depression.
-%
+% \begin{center}
+%   \begin{table}[h!]
+%   \centering
+%   \resizebox{.6\columnwidth}{!}{
+%     \begin{tabular}{c|c}
+%       \textbf{Inclusion}          & \textbf{Exclusion}                      \\ \hline
+%       Directly tackles depression & Out of 2013-2018 scope                  \\ %\hline
+%       Have computational approach & Not written in english or portuguese    \\ %\hline
+%       Attend both approaches      & It is not a primary study               \\ %\hline
+%       -                           & It does not have abstract               \\ %\hline
+%       -                           & It does not have computing contribution \\ %\hline
+%       -                           & It has less than 4 pages                \\ %\hline
+%     \end{tabular}}
+%     \caption{SLR Criterias for inclusion and exclusion.}
+%     \label{tab:rslCriterias}
+%   \end{table}
+% \end{center}
 
-% \vspace{-.55cm}
-A good amount of articles relies on natural language processing (NLP) to make a systemic analysis over the text in social media publications. 
-Not all the analyzed researches take into account the psychology point of view. The effect of taking into account existing approaches from psychology is that the analysis will be more robust and reliable since the psychology research area already addresses mental disease problems. It is a challenge align quantification made by metrics e.g. NLP, social network analysis and other techniques to the cognition of a psychologist on ordinary clinical treatment. 
+% It may not seem clearly, but can be listed main objectives from read articles are: identify what symptoms are searchable in social media and will compose a model as features; create a model which classifies an unseen user as potential depressive or not. The problem of dealing with depression and social media can be understand as a search for people who suffer the symptoms of depression.
+Pode não parecer claro, mas podem ser elencados os principais objetivos dos artigos lidos são: identificar quais sintomas são pesquisáveis nas mídias sociais e irão compor um modelo como recursos; criar um modelo que classifique um usuário invisível como potencial depressivo ou não. O problema de lidar com a depressão e as redes sociais pode ser entendido como uma busca por pessoas que sofrem os sintomas da depressão.
 
-\cite{DeChoudhury:2013:SMM:2464464.2464480} has developed many articles and researches about the measurement of depression in population using social media information. The authors in this work have been made use of psychometrics questionnaires. 
-Psychometrics represents the theory and technique of measuring mental processes and it is applied in Psychology and Education. It is an interesting approach, although it is questionable due to how it simplifies the whole process of understanding someone's behavior.
-In \cite{DeChoudhury:2013:SMM:2464464.2464480}, crowdsourcing is applied to obtain data from twitter by people who were clinically diagnosed with depression. With this data, they have constructed a corpus and developed a probabilistic model. The trained model classifies if a post indicates depression.
-Similar to previous work, Tsugawa et al \cite{Tsugawa2015} have applied the same analysis to replicate the results in a group of users from Japan.
+% A good amount of articles relies on natural language processing (NLP) to make a systemic analysis over the text in social media publications. Not all the analyzed researches take into account the psychology point of view. The effect of taking into account existing approaches from psychology is that the analysis will be more robust and reliable since the psychology research area already addresses mental disease problems. It is a challenge align quantification made by metrics e.g. NLP, social network analysis and other techniques to the cognition of a psychologist on ordinary clinical treatment. 
+Uma boa quantidade de artigos depende do processamento de linguagem natural (NLP) para fazer uma análise sistêmica do texto em publicações de mídia social. Nem todas as pesquisas analisadas levam em consideração o ponto de vista da psicologia. O efeito de levar em consideração as abordagens existentes da psicologia é que a análise será mais robusta e confiável, uma vez que a área de pesquisa da psicologia já aborda problemas de doenças mentais. É um desafio alinhar a quantificação feita por métricas. NLP, análise de redes sociais e outras técnicas para a cognição de um psicólogo em tratamento clínico comum.
 
-\cite{Park:2015:MDL:2675133.2675139} present how activities on Facebook are associated with depressive states of users in order to raise awareness to depression at the University where the study was conducted, which had seen an increase in the suicide rate of its students.
-\cite{andalibi_sensitive_2017} explore self-disclosures posts in Instagram. In this article, the authors have used content from posts tagged with \#depression to understand what rather sensitive disclosures do people make on Instagram. The work in \cite{Li2016} is a qualitative study that tries to understand how is the behavior and comprehension of the Chinese population about depression. It is a qualitative study and differs from prior ones.
-\cite{Vedula2017} conduct an observational study to understand the interactions between clinically depressed users and their ego-network when contrasted with a group of users without depression. They identify relevant linguistic and emotional signals from social media exchanges to detect symptomatic cues of depression.
-\cite{Zhao:2018:TCM:3302425.3302501} have applied text classification using Convolutional Neural Networks to classify depression using text analysis. \cite{Nobles:2018:IIS:3173574.3173987} also have used neural networks to identify patterns on time periods when the risk of a suicide attempt is increasing in SMS texts.
-\cite{Yazdavar:2017:SAM:3110025.3123028} incorporate temporal analysis of user-generated content on social media for capturing symptoms. They have developed a statistical model that emulates traditional observational cohort studies conducted through online questionnaires and extract and categorize different symptoms of depression and modeling user-generated content in social media.
-\cite{Chen2018} detected eight basic emotions and calculated the overall intensity (strength score) of the emotions extracted from all past tweets of each user. After that, they have generated a time series for each emotion of every user in order to generate a selection of descriptive statistics for this time series.
+% \cite{DeChoudhury:2013:SMM:2464464.2464480} has developed many articles and researches about the measurement of depression in population using social media information. The authors in this work have been made use of psychometrics questionnaires. Psychometrics represents the theory and technique of measuring mental processes and it is applied in Psychology and Education. It is an interesting approach, although it is questionable due to how it simplifies the whole process of understanding someone's behavior. In \cite{DeChoudhury:2013:SMM:2464464.2464480}, crowdsourcing is applied to obtain data from twitter by people who were clinically diagnosed with depression. With this data, they have constructed a corpus and developed a probabilistic model. The trained model classifies if a post indicates depression. Similar to previous work, Tsugawa et al \cite{Tsugawa2015} have applied the same analysis to replicate the results in a group of users from Japan.
+\cite{DeChoudhury:2013:SMM:2464464.2464480} desenvolveu muitos artigos e pesquisas sobre a medição da depressão na população usando informações de mídia social. Os autores deste trabalho fizeram uso de questionários psicométricos.
+A psicometria representa a teoria e a técnica de mensuração dos processos mentais e é aplicada na psicologia e na educação. É uma abordagem interessante, embora seja questionável por simplificar todo o processo de compreensão do comportamento de alguém. Em \cite{DeChoudhury:2013:SMM:2464464.2464480}, uma coleta no estilo crowdsourcing é aplicada para obter dados do Twitter por pessoas que foram clinicamente diagnosticadas com depressão. Com esses dados, eles construíram um corpus e desenvolveram um modelo probabilístico. O modelo treinado classifica se um post indica depressão. Semelhante ao trabalho anterior, Tsugawa et al \cite{Tsugawa2015} aplicaram a mesma análise para replicar os resultados em um grupo de usuários do Japão.
+
+% \cite{Park:2015:MDL:2675133.2675139} present how activities on Facebook are associated with depressive states of users in order to raise awareness to depression at the University where the study was conducted, which had seen an increase in the suicide rate of its students. \cite{andalibi_sensitive_2017} explore self-disclosures posts in Instagram. In this article, the authors have used content from posts tagged with \#depression to understand what rather sensitive disclosures do people make on Instagram. The work in \cite{Li2016} is a qualitative study that tries to understand how is the behavior and comprehension of the Chinese population about depression. It is a qualitative study and differs from prior ones. \cite{Vedula2017} conduct an observational study to understand the interactions between clinically depressed users and their ego-network when contrasted with a group of users without depression. They identify relevant linguistic and emotional signals from social media exchanges to detect symptomatic cues of depression. \cite{Zhao:2018:TCM:3302425.3302501} have applied text classification using Convolutional Neural Networks to classify depression using text analysis. \cite{Nobles:2018:IIS:3173574.3173987} also have used neural networks to identify patterns on time periods when the risk of a suicide attempt is increasing in SMS texts. \cite{Yazdavar:2017:SAM:3110025.3123028} incorporate temporal analysis of user-generated content on social media for capturing symptoms. They have developed a statistical model that emulates traditional observational cohort studies conducted through online questionnaires and extract and categorize different symptoms of depression and modeling user-generated content in social media. \cite{Chen2018} detected eight basic emotions and calculated the overall intensity (strength score) of the emotions extracted from all past tweets of each user. After that, they have generated a time series for each emotion of every user in order to generate a selection of descriptive statistics for this time series.
+
+\cite{Park:2015:MDL:2675133.2675139} apresenta como as atividades no Facebook estão associadas a estados depressivos de usuários a fim de aumentar a conscientização sobre a depressão na universidade onde o estudo foi realizado, que havia visto um aumento na taxa de suicídio de seus alunos. \cite{andalibi_sensitive_2017} explore postagens de auto-revelação no Instagram. Neste artigo, os autores usaram conteúdo de postagens marcadas com \emph{\#depression} para entender quais divulgações bastante confidenciais as pessoas fazem no Instagram. O trabalho in \cite{Li2016} é um estudo qualitativo que busca compreender como se dá o comportamento e a compreensão da população chinesa sobre a depressão. É um estudo qualitativo e difere dos anteriores. \cite{Vedula2017} conduz um estudo observacional para compreender as interações entre usuários clinicamente deprimidos e sua rede de ego quando comparados com um grupo de usuários sem depressão. Eles identificam sinais linguísticos e emocionais relevantes de intercâmbios de mídia social para detectar sinais sintomáticos de depressão. \cite{Zhao:2018:TCM:3302425.3302501} aplicou a classificação de texto usando Redes Neurais Convolucionais para classificar a depressão usando análise de texto. \cite{Nobles:2018:IIS:3173574.3173987} também usou redes neurais para identificar padrões em períodos de tempo em que o risco de tentativa de suicídio está aumentando em textos SMS. \cite{Yazdavar:2017:SAM:3110025.3123028} incorpora análise temporal de conteúdo gerado pelo usuário nas redes sociais para capturar sintomas. Eles desenvolveram um modelo estatístico que emula estudos de coorte observacionais tradicionais conduzidos por meio de questionários online e extraem e categorizam diferentes sintomas de depressão e modelam conteúdo gerado pelo usuário nas mídias sociais. \cite{Chen2018} detectou oito emoções básicas e calculou a intensidade geral (pontuação de força) das emoções extraídas de todos os tweets anteriores de cada usuário. Depois disso, eles geraram uma série temporal para cada emoção de cada usuário a fim de gerar uma seleção de estatísticas descritivas para esta série temporal.
 % \silas{Paragraph below to highlight the aperture to investigate}
 
-Papers cited above not always take into account how psychologists infer if someone is depressive or not. 
-We also stress that many of the real contributions rely on textual information generated by one user. Since one of the depression symptoms in ICD 11 is the inactivity, we could question if a depressive one would consistently generate online content.
-The context of psychology regularly deals with the subjectivity of information. Relied on that, we believe that relevant information can be extracted from other methods rather than text content. We believe that the classification of potential depressive users could be more reliable if combined with ``subjective information".
+% Papers cited above not always take into account how psychologists infer if someone is depressive or not. We also stress that many of the real contributions rely on textual information generated by one user. Since one of the depression symptoms in ICD 11 is the inactivity, we could question if a depressive one would consistently generate online content. The context of psychology regularly deals with the subjectivity of information. Relied on that, we believe that relevant information can be extracted from other methods rather than text content. We believe that the classification of potential depressive users could be more reliable if combined with ``subjective information".
+Os artigos citados acima nem sempre levam em consideração como os psicólogos inferem se alguém é depressivo ou não.
+Ressaltamos também que muitas das contribuições reais dependem de informações textuais geradas por um usuário. Uma vez que um dos sintomas de depressão no CID 11 é a inatividade, poderíamos questionar se um sintoma depressivo geraria consistentemente conteúdo online. O contexto da psicologia lida regularmente com a subjetividade da informação. Com base nisso, acreditamos que informações relevantes podem ser extraídas de outros métodos, em vez de conteúdo de texto. Acreditamos que a classificação de potenciais usuários depressivos poderia ser mais confiável se combinada com ``informações subjetivas".
 
 % (1 página) Trabalhos correlatos
 % Mencionar brevmente os trabalhos correlatos e mencionar o seu diferencial
 % Diferencial: Trabalhar com a identificação e monitoramento da VARIAÇÃO compartamental
 \section*{Cronograma}
 
-\appendix
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
 \newpage
+\bibliography{bibliografia} % Use the NIHGrant.bib file for the reference list, replace with your own
+\bibliographystyle{nihunsrt} % Use the custom nihunsrt bibliography style included with the template
+
+%----------------------------------------------------------------------------------------
+\appendix
 \begin{sidewaysfigure}
 	\centering
-	\includegraphics[scale=.225]{Figures/depressionprogression.png}
+	\includegraphics[scale=.24]{Figures/depressionprogression.png}
 	\caption{Depression progression over the years by global regions} 
 	\label{fig:depressionmap}
 \end{sidewaysfigure}
-  %
+%----------------------------------------------------------------------------------------
+\end{document}
 
 % \section*{Specific Aims}
 % This is an example citation \cite{Tatro2013}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor arcu luctus, imperdiet urna iaculis, mattis eros. Pellentesque iaculis odio vel nisl ullamcorper, nec faucibus ipsum molestie. Sed dictum nisl non aliquet porttitor. Etiam vulputate arcu dignissim, finibus sem et, viverra nisl. Aenean luctus congue massa, ut laoreet metus ornare in. Nunc fermentum nisi imperdiet lectus tincidunt vestibulum at ac elit. Nulla mattis nisl eu malesuada suscipit.
@@ -472,14 +528,3 @@ The context of psychology regularly deals with the subjectivity of information. 
 % 	\item{Sharing Model Organisms:} Regardless of the amount requested, all applications where the development of model organisms is anticipated are expected to include a description of a specific plan for sharing and distributing unique model organisms or state why such sharing is restricted or not possible. See Sharing Model Organisms Policy, and NIH Guide NOT-OD-04-042.
 % 	\item{Genome Wide Association Studies (GWAS):} Applicants seeking funding for a genome-wide association study are expected to provide a plan for submission of GWAS data to the NIH-designated GWAS data repository, or an appropriate explanation why submission to the repository is not possible. GWAS is defined as any study of genetic variation across the entire genome that is designed to identify genetic associations with observable traits (such as blood pressure or weight) or the presence or absence of a disease or condition. For further information see Policy for Sharing of Data Obtained in NIH Supported or Conducted Genome-Wide Association Studies, NIH Guide NOT-OD-07-088, and http://grants.nih.gov/grants/gwas/.
 % \end{enumerate}
-
-%----------------------------------------------------------------------------------------
-%	BIBLIOGRAPHY
-%----------------------------------------------------------------------------------------
-
-\bibliography{bibliografia} % Use the NIHGrant.bib file for the reference list, replace with your own
-\bibliographystyle{nihunsrt} % Use the custom nihunsrt bibliography style included with the template
-
-%----------------------------------------------------------------------------------------
-
-\end{document}
