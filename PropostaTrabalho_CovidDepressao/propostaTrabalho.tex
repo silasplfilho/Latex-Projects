@@ -41,12 +41,30 @@
 \usepackage{rotating}
 \newcommand{\rulesep}{\unskip\ \vrule\ }
 
-\pagestyle{empty} % Suppress headers and footers
+\usepackage[table,xcdraw]{xcolor}
+
+% \pagestyle{empty} % Suppress headers and footers
 \hyphenation{ionto-pho-re-tic iso-tro-pic fortran} % Specifies custom hyphenation points for words or words that shouldn't be hyphenated at all
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
+\begin{center}
+  \textbf{\Large{Proposta de Trabaho para Edital nº 09/2020}}
+  \\
+  \textbf{\Large{Prevenção e Combate a Surtos, Endemias, Epidemias e Pandemias}}
+  \\
+  \vspace{8pt}
+
+  \textbf{Programa Pós Graduação em Informática}
+  
+  \vspace{8pt}
+  \textbf{Aluno: Silas Pereira Lima Filho}
+
+\textbf{Orientadoras: Jonice de Oliveira Sampaio, Mônica Ferreira da Silva}
+
+\textbf{Linha de Pesquisa: Monitaramento da Saúde Mental em População Afetada pelo COVID-19}
+\end{center}
 
 %----------------------------------------------------------------------------------------
 %	SPECIFIC AIMS
@@ -67,13 +85,13 @@ O Ministério da Saúde no Brasil apresenta que 11,5 milhões de pessoas são af
 O objetivo desse documento é apresentar informações e fatos que embasam a proposta de pesquisa que visa utilizar dados de mídias sociais para conseguir mensurar a saúde mental de pessoas usuárias de mídias sociais.
 
 \subsection*{COVID-19 e suas Implicações}
-O ano de 2020 é marcado pelo impacto do coronavírus na população mundial. O então definido pela comunidade científica, COVID-19, fez com que distintos grupos, economias e países adotassem o isolamento social como forma de controle da propagação da doença. Dado que sua tal doença é de alto contágio, atualmente, segundo o instituto John Hopkins, existem X pessoas contaminadas e Y total de falecidos devido à doença.\textbf{REF?}
+O ano de 2020 é marcado pelo impacto do coronavírus na população mundial. O então definido pela comunidade científica, COVID-19, fez com que distintos grupos, economias e países adotassem o isolamento social como forma de controle da propagação da doença. Dado que sua tal doença é de alto contágio, atualmente, segundo o instituto John Hopkins, mais de 3 milhões pessoas foram contaminadas e mais de 100 mil pessoas faleceram devido à doença.\footnote{Dados conferidos em 13/08.}
 
 Por conta da fácil propagação do COVID-19, os diferentes níveis de estado (Federal, Estado e Municipal) adotaram medidas para controle da doença. O que acarretou em uma adaptação da população criando então novos comportamentos. 
 Comportamentos relacionados ao trabalho, formas de consumo, modos de relacionamento e outros tipos de atividades foram modificados por conta dos novos hábitos de comportamento delegados a população. Tais hábitos rodeiam o isolamento de pessoas e famílias. 
 
 As variáveis que envolvem a pandemia ainda são analisadas tanto pela comunidade científica, mas também é debatida pelas pessoas fora dessa comunidade. Na população brasileira, existe a discussão popular sobre a eficácia das medidas adotadas e em muitos momentos as medidas tomadas pelas autoridades governamentais nem sempre se baseiam no conhecimento gerado pela comunidade científica.
-Em meio a tantos fatores, de informação, conhecimento relacionados a doença, ainda é estudado que tipo de consequências cognitivas e psicológicas são geradas por conta da pandemia do COVID-19. Problemas como ansiedade, depressão vem a tona por conta tanto do medo de contaminação da doença que é facilmente propagável \textbf{REF?}. Uma pessoa pode ter preocupações sobre o risco de contaminar-se, ou então ter preocupações sobre familiares ou pessoas próximas estarem em situação de delicada. Além dos anseios ligados diretamento a doença, pensamentos sobre a trabalho, estudos também são iminimentes. Dado que muitos empregos foram perdidos na pandemia \textbf{REF?}.
+Em meio a tantos fatores, de informação, conhecimento relacionados a doença, ainda é estudado que tipo de consequências cognitivas e psicológicas são geradas por conta da pandemia do COVID-19. Problemas como ansiedade, depressão vem a tona por conta tanto do medo de contaminação da doença que é facilmente propagável. Uma pessoa pode ter preocupações sobre o risco de contaminar-se, ou então ter preocupações sobre familiares ou pessoas próximas estarem em situação de delicada. O Instituto Brasileiro de Geografia e Estatística (IBGE) aponta que boa parte das empresas brasileiras tiveram um impacto negativo durante o período da pandemia\footnote{covid19.ibge.gov.br}. O que gera um impacto na empregabilidade e consequentemente criando uma preocupação em parte da população. 
 
 \cite{PMID:32298802} realiza um  estudo utlizando questionários para medir o nível de estresse, ansiedade e depressão da população chinesa no período da pandemia. Os autores informam medidas que podem ser tomadas para minimizar o impacto na saúde mental, e também informa que dos grupos analisados, o que tem maior propensão a ter a saúde mental afetada é o de jovens e estudantes. \cite{wang2020immediate} também mede o impacto na saúde mental em relação ao nível de stress, ansiedade e depressão de grupos da população chinesa no período da pandemia. 
 
@@ -85,17 +103,15 @@ Ye em \cite{info:doi/10.2196/19866} lista diversas formas de utilização da com
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics[scale=.4]{Figures/19866-391235-1-PB.png}
+  \includegraphics[scale=.45]{Figures/19866-391235-1-PB.png}
   \caption{Framework sugerido por \cite{info:doi/10.2196/19866}.}
   \label{fig:HITframework}
 \end{figure}  
 
-Baseado em \cite{info:doi/10.2196/19866}, uma das tarefas listas é a análise de grandes conjuntos de dados. Com a coleta de informações sobre uma população e grupos, cria-se a chance de aproximar os recursos necessários para indivíduos em risco. 
-
-\subsection*{Monitoramento Mídias Sociais}
+\subsection*{Monitoramento em Mídias Sociais}
 \textit{Infodemiologia} e \textit{Detecção Digital de Doenças} são termos correlatos para descrever o uso de plataformas e ferramentas digitais para melhorar a saúde social. Eles podem ser traduzidos como esforços para combater epidemias, identificar indivíduos em risco e comunicar doenças urgentes de candidatos. O uso da tecnologia apóia diretamente instituições, profissionais e até ajuda as pessoas a se conscientizarem de algumas doenças \cite{Horvitz}.
 
-Dentro das tecnologias que podem ser utilizadas no domínio da saúde são as mídias sociais. Nelas, seus usuários publicam seus interesses e preferências sociais para então compartilhar com outros usuários. Elas se encaixam nos dois conceitos definidos acima. Podendo assim servir como fonte de informação e monitoramento para autoridades políticas e também para a comunidade científica. Podendo 
+Baseado em \cite{info:doi/10.2196/19866}, uma das tarefas listas é a análise de grandes conjuntos de dados. Com a coleta de informações sobre uma população e grupos, cria-se a chance de aproximar os recursos necessários para indivíduos em risco. Uma das tecnologias de coleta, e análise de grandes conjuntos de dados e que podem ser aplicados no domínio da saúde são as mídias sociais. Nelas, seus usuários publicam seus interesses e preferências sociais para então compartilhar com outros usuários. Elas se encaixam nos dois conceitos definidos acima. Podendo assim servir como fonte de informação e monitoramento para autoridades políticas e também para a comunidade científica. Podendo 
 Através da mídia social, um usuário pode se conectar a seus amigos, parentes e até desconhecidos.
 O conteúdo gerado nessas plataformas se parece com boas fontes de informação que podem ajudar ao lidar com a detecção ou conexão de doenças entre um psicólogo e um paciente depressivo.
 
@@ -108,18 +124,15 @@ Embora depressão seja o nome comum na sociedade, o Manual de Diagnóstico de Tr
 Os sintomas e características da depressão são muito semelhantes à descrição de Freud da melancolia \cite{freud1917mourning}.
 
 \subsection*{Dificuldades Tratamento da Depressão}
-Além 
-Além das dificuldades em conseguir identificar precisamente 
-
-A resposta do psicológico de uma pessoa à pandemia e suas consequências incitam o questionamento  .
-
-sindrome respiratoria - sars
-covid
+O diagnóstico da patologia se dá geralmente pela terapia, que é feita pela entrevista entre o profissional (psicólogo, psiquiatra ou médico). Atualmente, com a facilidade da tecnologia, profissionais da área da saúde adotaram ao \emph{teleatendimento} para conseguir atender pacientes remotamente. 
+Cada região do cenário do serviço de saúde brasileiro possui suas particularidades. Num mesmo estado é possível encontrar grupos com grande poder aquisitivo, e outros que vivem em situação com recursos limitados.
+Infelizmente, boa parte da população tem acesso limitado ao serviço de saúde. Muitas vezes por conta de desinformação ou por não conhecimento, não consegue tratamento médico profissional. Outras dificuldades para o tratamento de uma doença é a distância geográfica, ou então a disponibilidade de mão de obra em cidades nem sempre com muitos recursos, ou até mesmo preconceito de como pessoas próximas encaram uma possível doença psicológica. Todos esses fatores dificultam o trabalho de profissionais.
 
 \subsection*{Detecção prévia de depressao}
-Devido ao cenário descrito acima, identificar e atender alguém que possa ser um potencial paciente depressivo, de maneira rápida e discreta, parece ser muito útil tanto para o paciente quanto para o profissional. Não apenas com
-A tarefa de identificar alguma doença, mesmo que não seja depressão, pode ser desafiadora, mas ao mesmo tempo relevante.Investigar se é possível identificar sinais, sintomas de comportamento depressivo nas plataformas de mídia social.
+Devido ao cenário descrito acima, identificar e atender alguém que possa ser um potencial paciente depressivo, de maneira rápida e discreta, parece ser muito útil tanto para o paciente quanto para o profissional. 
+A tarefa de identificar alguma doença, mesmo que não seja depressão, pode ser desafiadora, mas ao mesmo tempo relevante. Investigar se é possível identificar sinais, sintomas de comportamento depressivo nas plataformas de mídia social. 
 Devido à abundância de dados, pode tornar-se difícil o dado representativo. Portanto, escolha uma técnica confiável e uma análise consistente do método pode exigir uma grande quantidade de pesquisas.
+
 % Como primeiro passo, a fim de investigar o problema de identificação de pessoas depressivas nas redes sociais.
 
 % % 1 parágrafo - Depressão é considerada epidemia (o que é, crescimento a nível mundial, dados Brasil)
@@ -128,7 +141,7 @@ Devido à abundância de dados, pode tornar-se difícil o dado representativo. P
 % % Pandemia - dificuldade de tratamento 
 % % 1 ou 2 parágrafos - Monitoração das mídias sociais tem ajudado na detecção de depressão - como? Colocar as referências
 % % Detecção online da depressão, durante a pandemia, auxiliado a um teleatendimento pode salvar vidas
-\newpage
+% \newpage
 
 \section*{Proposta de Pesquisa}
 % The proposed solution, in order to create an artifact, faces different stages that can offer challenges to the research to be accomplished. Since the final product is the hability to identify depression symptoms. We must pass by stages like obtain, process, model and persist the data from social network sites in a structure that can allow the further steps to retrieve this data for future analysis. Our method aims to identify a depressive user inserted in a social network in a reliable, consistent and unobtrusive manner. Figure \ref{fig:proposalgraph} depicts how we intend to achieve it. 
@@ -152,11 +165,12 @@ Posteriormente, a construção dos conjuntos de dados, por meio da modelagem de 
 % The screening substage comprehends a set of metrics that rely on topological analysis. Through social network analysis, we can understand how entities from a social network are connected. The topology study, through the use of social network analysis, can lead to the choice of specific users to have a better comprehension of them and their influence \cite{Razis2020}. We can list as examples three different types of relevant analysis, \textit{Social Influence Analysis}, \textit{Node Classification} and \textit{Community Detection} \cite{aggarwal2011socialnetwork}. With these analysis, it would be possible to have a better understanding of the connections around a depressive person.
 O primeiro subestágio, de triagem, compreende um conjunto de métricas baseadas na análise topológica dos dados. Por meio da análise de redes sociais, podemos entender como as entidades de uma rede social estão conectadas. O estudo da topologia, através do uso da análise de redes sociais, pode levar à escolha de usuários específicos para melhor compreensão deles e sua influência \cite{Razis2020}. Podemos listar como exemplos três tipos diferentes de análises relevantes, \textit{Análise de Influência Social}, \textit{Classificação de Nó} e \textit{Detecção de Comunidade} \cite{aggarwal2011socialnetwork}. Com essas análises, seria possível ter um melhor entendimento das conexões em torno de uma pessoa depressiva. O trabalho de Rosenquist et.al. por exemplo consegue mapear dados de questionários psicométricos como grafos (que é a forma de representação de redes sociais). A partir de então os autores conseguem identificar o espalhamento da doença num determinado grupo \cite{Rosenquist2011}.
 
-
-% O subestágio de análise é dividido em três subprocessos e é representado na Figura \ref{fig:parsing_stage}. 
-Bem como outros trabalhos similares, também pretendemos aplicar a análise de texto sobre os conjuntos de dados. Com base no trabalho de \cite{Nolasco2016}, pretendemos identificar quais são os principais tópicos de cada usuário em uma plataforma de mídia social. Após a identificação do tópico, para cada usuário, encontraremos a correlação entre os tópicos e mapearemos os termos em um gráfico de polaridade. 
-% O gráfico de polaridade pode ajudar a identificar se as palavras e termos mais usados ​​por um usuário tendem a ser positivos ou negativos. 
-Trabalhos relacionados mostraram que pessoas depressivas costumam manipular palavras mais negativas. Isso reflete a baixa auto-visão desse grupo. Com os gráficos de polaridade de cada usuário, a terceira etapa pretende analisar como esses gráficos evoluíram. Dessa forma, será possível verificar se o discurso de alguém se tornou mais positivo ou negativo. A análise de séries temporais parece ser importante, visto que alguém é considerado deprimido se um conjunto de sintomas já ocorreu por um determinado período de tempo. Isso poderia ajudar a explicar melhor o fenômeno da depressão nas redes sociais.
+O subestágio de análise é dividido em três subprocessos e é representado na Figura \ref{fig:parsing_stage}. O processamento de linguagem natural (NLP) tem mostrado grande avanço nos últimos anos na análise de dados textuais. Modelos de linguagem tem sido utilizados para tarefas como a geração de conhecimento de um determinado domínio, extração de conhecimento em grandes conjuntos de texto, dentre outros. Uma das tarefas de NLP 
+é a identificação automática dos tópicos de um texto. 
+No subestágio de análise, aplicamos então as técnicas de análise textual nos dados coletados, o que se assemelha com outras abordagens científicas. Com base no trabalho de \cite{Nolasco2016}, pretendemos identificar quais são os principais tópicos de cada usuário em uma plataforma de mídia social. 
+Após a identificação do tópico, para cada usuário, encontraremos a correlação entre os tópicos e mapearemos os termos em um gráfico de polaridade. 
+O gráfico de polaridade pode ajudar a identificar se as palavras e os termos mais usados por um usuário tendem a ser positivos ou negativos.
+Trabalhos relacionados mostraram que pessoas depressivas costumam manipular palavras mais negativas. Isso reflete a baixa autoestima desse grupo. Com os gráficos de polaridade de cada usuário, a terceira etapa pretende analisar como esses gráficos evoluíram. Dessa forma, será possível verificar se o discurso de alguém se tornou mais positivo ou negativo. A análise de séries temporais parece ser importante, visto que alguém é considerado deprimido se um conjunto de sintomas já ocorreu por um determinado período de tempo. Isso poderia ajudar a explicar melhor o fenômeno da depressão nas redes sociais.
 
 \begin{figure}
   \centering
@@ -179,16 +193,13 @@ O conjunto de heurísticas também é validado no Módulo 3. Neste módulo, pret
 
 \section*{Contribuições Esperadas}
 A contribuição final esperada aumentar a área de conhecimento da computação na saúde mental. Devido às amplas implicações da depressão na saúde das pessoas e ao grande uso das mídias sociais, visa-se utilizar os dados coletados com maior precisão e confiabilidade para assim conseguir auxiliar profissionais e autoridades na tomada de decisões.
-É proposto uma abordagem diferente sobre como lidar com a depressão com a ajuda de SNA e análise de texto.
+É proposto uma abordagem que difere sobre como lidar com a depressão com a ajuda de SNA e análise de texto.
 Ressaltamos que a análise de redes sociais compreende a estrutura topológica. Portanto, a principal diferença em relação às pesquisas anteriores e à nossa proposta, é usar o conhecimento e as idéias da psicologia para melhorar o desempenho da classificação com SNA e análise textual.
 
-Com esse experimento, iríamos entender o ambiente onde a doença depressão é o principal tópico de discussão, consequentemente, reproduziríamos e validaríamos os resultados e comportamentos das conversas sobre a depressão. % A validação é principalmente dirigida à análise textual e de vocabulário. Embora pretendamos explorar profundamente a análise de redes sociais.
+Com esse experimento, iríamos entender o ambiente onde a doença depressão é o principal tópico de discussão, consequentemente, reproduziríamos e validaríamos os resultados e comportamentos das conversas sobre a depressão. A validação é principalmente dirigida à análise textual e de vocabulário. Embora pretendamos explorar profundamente a análise de redes sociais.
 
-Este trabalho ainda está desenvolvendo a metodologia e as análises que poderão ser realizadas. As contribuições esperadas estão relacionadas à informática e à psicologia. Para a ciência da computação, esperamos que o emprego de métricas computacionais como análise de redes sociais e classificação de tópicos possa ajudar as pessoas a adquirir uma compreensão mais precisa de como o fenômeno da depressão acontece nas redes sociais e também como as redes sociais refletem a vida real.
-Do ponto de vista da pesquisa em saúde (psicologia, medicina), nossa abordagem poderia melhorar a forma como o diagnóstico de depressão é realizado. Isso pode ajudar as pessoas a terem uma saúde melhor por meio do uso da tecnologia.
-% A fase experimental descreve os resultados da análise de redes sociais (SNA). Selecionamos alguns grupos de métricas para entender o que são entidades de rede com os maiores valores de métricas.
-
-% % Falar da proposta a nível geral
+As etapas da metodologia proposta  As contribuições esperadas estão relacionadas à informática e à psicologia. Para a ciência da computação, esperamos que o emprego de métricas computacionais como análise de redes sociais e classificação de tópicos possa ajudar as pessoas a adquirir uma compreensão mais precisa de como o fenômeno da depressão acontece nas redes sociais e também como as redes sociais refletem a vida real.
+Do ponto de vista da pesquisa em saúde (psicologia, medicina), nossa abordagem poderia melhorar a forma como o diagnóstico de depressão é realizado. Podendo assim ajudar as pessoas a terem uma saúde melhor por meio do uso da tecnologia.
 
 \section*{Trabalhos Correlatos}
 % For the literature selection, we have applied a systematic literature review \textbf{(SLR)} in order to have a deeper insight from the most recent research that tackles depression detection in social media. SLR allows to create protocols that can be reused by other researchers and therefore give to research transparency and reproducibility.
@@ -217,7 +228,7 @@ Do ponto de vista da pesquisa em saúde (psicologia, medicina), nossa abordagem 
 Pode não parecer claro, mas podem ser elencados os principais objetivos dos artigos lidos são: identificar quais sintomas são pesquisáveis nas mídias sociais e irão compor um modelo como recursos; criar um modelo que classifique um usuário invisível como potencial depressivo ou não. O problema de lidar com a depressão e as redes sociais pode ser entendido como uma busca por pessoas que sofrem os sintomas da depressão.
 
 % A good amount of articles relies on natural language processing (NLP) to make a systemic analysis over the text in social media publications. Not all the analyzed researches take into account the psychology point of view. The effect of taking into account existing approaches from psychology is that the analysis will be more robust and reliable since the psychology research area already addresses mental disease problems. It is a challenge align quantification made by metrics e.g. NLP, social network analysis and other techniques to the cognition of a psychologist on ordinary clinical treatment. 
-Uma boa quantidade de artigos depende do processamento de linguagem natural (NLP) para fazer uma análise sistêmica do texto em publicações de mídia social. Nem todas as pesquisas analisadas levam em consideração o ponto de vista da psicologia. O efeito de levar em consideração as abordagens existentes da psicologia é que a análise será mais robusta e confiável, uma vez que a área de pesquisa da psicologia já aborda problemas de doenças mentais. É um desafio alinhar a quantificação feita por métricas. NLP, análise de redes sociais e outras técnicas para a cognição de um psicólogo em tratamento clínico comum.
+Uma boa quantidade de artigos se baseia em técnicas de NLP para fazer uma análise sistêmica do texto em publicações de mídia social. Nem todas as pesquisas analisadas levam em consideração o ponto de vista da psicologia. O efeito de levar em consideração as abordagens existentes da psicologia é que a análise será mais robusta e confiável, uma vez que a área de pesquisa da psicologia já aborda problemas de doenças mentais. É um desafio alinhar a quantificação feita por métricas. NLP, análise de redes sociais e outras técnicas para a cognição de um psicólogo em tratamento clínico comum.
 
 % \cite{DeChoudhury:2013:SMM:2464464.2464480} has developed many articles and researches about the measurement of depression in population using social media information. The authors in this work have been made use of psychometrics questionnaires. Psychometrics represents the theory and technique of measuring mental processes and it is applied in Psychology and Education. It is an interesting approach, although it is questionable due to how it simplifies the whole process of understanding someone's behavior. In \cite{DeChoudhury:2013:SMM:2464464.2464480}, crowdsourcing is applied to obtain data from twitter by people who were clinically diagnosed with depression. With this data, they have constructed a corpus and developed a probabilistic model. The trained model classifies if a post indicates depression. Similar to previous work, Tsugawa et al \cite{Tsugawa2015} have applied the same analysis to replicate the results in a group of users from Japan.
 \cite{DeChoudhury:2013:SMM:2464464.2464480} desenvolveu muitos artigos e pesquisas sobre a medição da depressão na população usando informações de mídia social. Os autores deste trabalho fizeram uso de questionários psicométricos.
@@ -236,11 +247,62 @@ Ressaltamos também que muitas das contribuições reais dependem de informaçõ
 % Mencionar brevmente os trabalhos correlatos e mencionar o seu diferencial
 % Diferencial: Trabalhar com a identificação e monitoramento da VARIAÇÃO compartamental
 \section*{Cronograma}
+O período estipulado para a proposta apresentada é de 36 meses. A Tabela \ref{tab:Cronograma} apresenta as etapas estipuladas para a pesquisa. Destaca-se que o cronograma apresentado poderá flexibilizar-se de modo a atender as demandas de tempo da chamada de trabalho. Basicamente é intencionado que a pesquisa se desenvolva no principalmente nos dois primeiros anos. Assim, nos últimos doze meses é esperado um trabalho mais focado na divulgação acadêmica e científica dos dados analisados e do conhecimento gerado por meio da pesquisa.
 
+\begin{table}
+  \centering
+  \begin{tabular}{cllll}
+  \hline
+% CABECALHO
+  \multicolumn{5}{|c|}{\cellcolor[HTML]{C0C0C0}\textbf{\large{Primeiro Ano}}} \\ \hline
+  \multicolumn{1}{|c|}{\cellcolor[HTML]{C0C0C0}\textbf{Atividades}} & \multicolumn{4}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Quartis}} \\ \hline
+  \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{Q.1} & \multicolumn{1}{c|}{Q.2} & \multicolumn{1}{c|}{Q.3} & \multicolumn{1}{c|}{Q.4} \\ \hline
+
+  \multicolumn{1}{|c|}{Revisão Bibliográfica} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} \\ \hline
+  \multicolumn{1}{|c|}{Criação de coletores de dados} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} \\ \hline
+  \multicolumn{1}{|c|}{Qualificação de Tese} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} \\ \hline
+  \multicolumn{1}{|c|}{Aplicação de Survey com profissionais da saúde} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{} \\ \hline
+  \multicolumn{1}{|c|}{Análise Topológica dos Dados} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{} \\ \hline
+    \multicolumn{1}{|c|}{Análise de Dados Textuais} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{X} \\ \hline
+  \multicolumn{1}{|c|}{Validação de Análises Realizadas} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{X} \\ \hline
+  
+  
+% CABECALHO
+  \multicolumn{5}{|c|}{\cellcolor[HTML]{C0C0C0}\textbf{\large{Segundo Ano}}} \\ \hline
+  \multicolumn{1}{|c|}{\cellcolor[HTML]{C0C0C0}\textbf{Atividades}} & \multicolumn{4}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Quartis}} \\ \hline
+  \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{Q.1} & \multicolumn{1}{c|}{Q.2} & \multicolumn{1}{c|}{Q.3} & \multicolumn{1}{c|}{Q.4} \\ \hline
+
+  \multicolumn{1}{|c|}{Atualização da Revisão Bibliográfica} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} \\ \hline
+  \multicolumn{1}{|c|}{Criação de modelo de classificação inicial} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} \\ \hline
+  \multicolumn{1}{|c|}{Validação de Performance do Modelo} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} \\ \hline
+  \multicolumn{1}{|c|}{Validação de Análises Realizadas} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} \\ \hline
+  
+  
+  \multicolumn{1}{|c|}{Aplicação de survey com pacientes depressivos} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{} \\ \hline
+  \multicolumn{1}{|c|}{Análise de dados do survey} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{X} \\ \hline
+  
+  \multicolumn{1}{|c|}{Validação de Heurísticas} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} \\ \hline
+  \multicolumn{1}{|c|}{Escrita de Tese} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{X} \\ \hline
+  \multicolumn{1}{|c|}{Defesa Tese} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{X} \\ \hline
+% CABECALHO
+  \multicolumn{5}{|c|}{\cellcolor[HTML]{C0C0C0}\textbf{\large{Terceiro Ano}}} \\ \hline
+  \multicolumn{1}{|c|}{\cellcolor[HTML]{C0C0C0}\textbf{Atividades}} & \multicolumn{4}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Quartis}} \\ \hline
+  \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{Q.1} & \multicolumn{1}{c|}{Q.2} & \multicolumn{1}{c|}{Q.3} & \multicolumn{1}{c|}{Q.4} \\ \hline
+
+  \multicolumn{1}{|c|}{Atualização da Revisão Bibliográfica} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} \\ \hline
+  \multicolumn{1}{|c|}{Submissão para Journal (A definir)} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{X} \\ \hline
+  \multicolumn{1}{|c|}{Submissão para Congresso (A definir)} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{X} & \multicolumn{1}{c|}{X} \\ \hline
+  
+
+  \end{tabular}
+  \caption{Cronograma da proposta de pesquisa.}
+  \label{tab:Cronograma}
+  \end{table}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
+
 \newpage
 \bibliography{bibliografia} % Use the NIHGrant.bib file for the reference list, replace with your own
 \bibliographystyle{nihunsrt} % Use the custom nihunsrt bibliography style included with the template
@@ -256,275 +318,3 @@ Ressaltamos também que muitas das contribuições reais dependem de informaçõ
 %----------------------------------------------------------------------------------------
 \end{document}
 
-% \section*{Specific Aims}
-% This is an example citation \cite{Tatro2013}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor arcu luctus, imperdiet urna iaculis, mattis eros. Pellentesque iaculis odio vel nisl ullamcorper, nec faucibus ipsum molestie. Sed dictum nisl non aliquet porttitor. Etiam vulputate arcu dignissim, finibus sem et, viverra nisl. Aenean luctus congue massa, ut laoreet metus ornare in. Nunc fermentum nisi imperdiet lectus tincidunt vestibulum at ac elit. Nulla mattis nisl eu malesuada suscipit.
-% 
-% Aliquam arcu turpis, ultrices sed luctus ac, vehicula id metus. Morbi eu feugiat velit, et tempus augue. Proin ac mattis tortor. Donec tincidunt, ante rhoncus luctus semper, arcu lorem lobortis justo, nec convallis ante quam quis lectus. Aenean tincidunt sodales massa, et hendrerit tellus mattis ac. Sed non pretium nibh. Donec cursus maximus luctus. Vivamus lobortis eros et massa porta porttitor.
-
-% Fusce varius orci ac magna dapibus porttitor. In tempor leo a neque bibendum sollicitudin. Nulla pretium fermentum nisi, eget sodales magna facilisis eu. Praesent aliquet nulla ut bibendum lacinia. Donec vel mauris vulputate, commodo ligula ut, egestas orci. Suspendisse commodo odio sed hendrerit lobortis. Donec finibus eros erat, vel ornare enim mattis et. Donec finibus dolor quis dolor tempus consequat. Mauris fringilla dui id libero egestas, ut mattis neque ornare. Ut condimentum urna pharetra ipsum consequat, eu interdum elit cursus. Vivamus scelerisque tortor et nunc ultricies, id tincidunt libero pharetra. Aliquam eu imperdiet leo. Morbi a massa volutpat velit condimentum convallis et facilisis dolor.
-
-% \begin{description}
-% 	\item[Aim 1: Really cool stuff.]{}
-% 	\item{1.1. First sub-aim with more details}
-% 	\item{1.2. Second sub-aim with more details.}  
-% \end{description}
-
-% \begin{description}
-% 	\item[Aim 2: Really cool stuff.]{}
-% 	\item{2.1. First sub-aim with more details.}
-% 	\item{2.2. Second sub-aim with more details.}
-% \end{description}
-
-% \begin{description}
-% 	\item[Aim 3: Really cool stuff.]{ }
-% 	\item{3.1. First sub-aim with more details.}
-% 	\item {3.2. Second sub-aim with more details.}
-% 	\item{3.3. Third sub-aim with more details.}
-% \end{description}
-
-% In hac habitasse platea dictumst. Curabitur mattis elit sit amet justo luctus vestibulum. In hac habitasse platea dictumst. Pellentesque lobortis justo enim, a condimentum massa tempor eu. Ut quis nulla a quam pretium eleifend nec eu nisl. Nam cursus porttitor eros, sed luctus ligula convallis quis. Nam convallis, ligula in auctor euismod, ligula mauris fringilla tellus, et egestas mauris odio eget diam. Praesent sodales in ipsum eu dictum.
-
-%----------------------------------------------------------------------------------------
-%	SIGNIFICANCE
-%----------------------------------------------------------------------------------------
-
-% \newpage
-
-% \section*{A. Significance}
-
-% \begin{description} % For subheadings within a section, this template uses the {description} environment, it is not obtrusively large like a \subsection; and facilitates a brief optional subtitle; and it will wrap around figures and tables; it also has a decent amount of whitespace above/below which is less than for a section heading
-% 	\item[A.1. Instructions.]{Optional subtitle}
-% \end{description}
-
-% Explain the importance of the problem or critical barrier to progress in the field that the proposed project addresses.
-
-% Explain how the proposed project will improve scientific knowledge, technical capability, and/or clinical practice in one or more broad fields.
-
-% Describe how the concepts, methods, technologies, treatments, services, or preventative interventions that drive this field will be changed if the proposed aims are achieved.
-
-% \begin{description}
-% 	\item[A.2. Subheading.]{}
-% \end{description}
-
-% \begin{wraptable}{l}{5.5cm} % Example table with text wrapping around it
-% 	\caption{Example Table}
-% 	\begin{center}
-% 		\begin{tabular}{l l r}
-% 			\toprule
-% 			\multicolumn{1}{c}{City} & {N\textsuperscript{a}} & {\%Silly}\\
-% 			\midrule
-% 			San Diego & 289 & 41\%\\
-% 			Seattle & 262 & 32\%\\
-% 			Galveston & 261 & 15\%\\
-% 			St Louis & 269 & 7\%\\
-% 			New York & 271 & 4\%\\
-% 			Baltimore & 231 & 2\%\\
-% 			\emph{Total} & 1,586 & 21\%\\
-% 			\hline 
-% 		\end{tabular}\\
-% 		\footnotesize\textsuperscript{a}{All participants clowns.}
-% 	\end{center}
-% 	\label{tab:example}
-% \end{wraptable}
-
-% Referencing a table using it's label: Table \ref{tab:example}. Maecenas consectetur metus at tellus finibus condimentum. Proin arcu lectus, ultrices non tincidunt et, tincidunt ut quam. Integer luctus posuere est, non maximus ante dignissim quis. Nunc a cursus erat. Curabitur suscipit nibh in tincidunt sagittis. Nam malesuada vestibulum quam id gravida. Proin ut dapibus velit. Vestibulum eget quam quis ipsum semper convallis. Duis consectetur nibh ac diam dignissim, id condimentum enim dictum. Nam aliquet ligula eu magna pellentesque, nec sagittis leo lobortis. Aenean tincidunt dignissim egestas. Morbi efficitur risus ante, id tincidunt odio pulvinar vitae. Proin ut dapibus velit. Vestibulum eget quam quis ipsum semper convallis. Duis consectetur nibh ac diam dignissim, id condimentum enim dictum.
-
-% Curabitur tempus hendrerit nulla. Donec faucibus lobortis nibh pharetra sagittis. Sed magna sem, posuere eget sem vitae, finibus consequat libero. Cras aliquet sagittis erat ut semper. Aenean vel enim ipsum. Fusce ut felis at eros sagittis bibendum mollis lobortis libero. Donec laoreet nisl vel risus lacinia elementum non nec lacus. Nullam luctus, nulla volutpat ultricies ultrices, quam massa placerat augue, ut fringilla urna lectus nec nibh. Vestibulum efficitur condimentum orci a semper. Pellentesque ut metus pretium lacus maximus semper. Sed tellus augue, consectetur rhoncus eleifend vel, imperdiet nec turpis. Nulla ligula ante, malesuada quis orci a, ultricies blandit elit.
-
-% In malesuada ullamcorper urna, sed dapibus diam sollicitudin non. Donec elit odio, accumsan ac nisl a, tempor imperdiet eros. Donec porta tortor eu risus consequat, a pharetra tortor tristique. Morbi sit amet laoreet erat. Morbi et luctus diam, quis porta ipsum. Quisque libero dolor, suscipit id facilisis eget, sodales volutpat dolor. Nullam vulputate interdum aliquam. Mauris id convallis erat, ut vehicula neque. Sed auctor nibh et elit fringilla, nec ultricies dui sollicitudin.
-
-% \begin{wrapfigure}{r}{8.5cm} % Example figure with text wrapping around it
-% 	\includegraphics[width=8.2cm]{Figures/Fig1.jpg}
-% 	\caption{\footnotesize Example wrapped figure. (A) Impressive microscopy image. (B) Impressive data.}
-% 	\label{fig:example}
-% \end{wrapfigure}
-
-% Referencing a figure using it's label: Figure \ref{fig:example}. Proin lobortis efficitur dictum. Pellentesque vitae pharetra eros, quis dignissim magna. Sed tellus leo, semper non vestibulum vel, tincidunt eu mi. Aenean pretium ut velit sed facilisis. Ut placerat urna facilisis dolor suscipit vehicula. Ut ut auctor nunc. Nulla non massa eros. Proin rhoncus arcu odio, eu lobortis metus sollicitudin eu. Duis maximus ex dui, id bibendum diam dignissim id. Aliquam quis lorem lorem. Phasellus sagittis aliquet dolor, vulputate cursus dolor convallis vel. Suspendisse eu tellus feugiat, bibendum lectus quis, fermentum nunc. Nunc euismod condimentum magna nec bibendum. Curabitur elementum nibh eu sem cursus, eu aliquam leo rutrum. Sed bibendum augue sit amet pharetra ullamcorper. Aenean congue sit amet tortor vitae feugiat. Vestibulum vestibulum luctus metus venenatis facilisis. Suspendisse iaculis augue at vehicula ornare. Sed vel eros ut velit fermentum porttitor sed sed massa. Fusce venenatis, metus a rutrum sagittis, enim ex maximus velit, id semper nisi velit eu purus.
-
-% \begin{description}
-% 	\item[A.3. Another subheading:]{optional subtitle.}
-% \end{description}
-
-% In congue risus leo, in gravida enim viverra id. Donec eros mauris, bibendum vel dui at, tempor commodo augue. In vel lobortis lacus. Nam ornare ullamcorper mauris vel molestie. Maecenas vehicula ornare turpis, vitae fringilla orci consectetur vel. Nam pulvinar justo nec neque egestas tristique. Donec ac dolor at libero congue varius sed vitae lectus. Donec et tristique nulla, sit amet scelerisque orci. Maecenas a vestibulum lectus, vitae gravida nulla. Proin eget volutpat orci. Morbi eu aliquet turpis. Vivamus molestie urna quis tempor tristique. Proin hendrerit sem nec tempor sollicitudin.
-
-% \begin{figure}[b] % Figure at bottom of the page ([b] argument, could be "t" for top or "h" for here)
-% 	\centering
-% 	\includegraphics[scale = .80]{Figures/Fig2.pdf}
-% 	\caption{\footnotesize Big Figure legend Big Figure legend Big Figure legend Big Figure legend Big Figure legend Big Figure legend Big Figure legend Big Figure legend Big Figure legend.}
-% 	\label{fig2}
-% \end{figure}
-
-% Fusce eleifend porttitor arcu, id accumsan elit pharetra eget. Mauris luctus velit sit amet est sodales rhoncus. Donec cursus suscipit justo, sed tristique ipsum fermentum nec. Ut tortor ex, ullamcorper varius congue in, efficitur a tellus. Vivamus ut rutrum nisi. Phasellus sit amet enim efficitur, aliquam nulla id, lacinia mauris. Quisque viverra libero ac magna maximus efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum mollis eros in tellus fermentum, vitae tristique justo finibus. Sed quis vehicula nibh. Etiam nulla justo, pellentesque id sapien at, semper aliquam arcu. Integer at commodo arcu. Quisque dapibus ut lacus eget vulputate.
-
-% Vestibulum sodales orci a nisi interdum tristique. In dictum vehicula dui, eget bibendum purus elementum eu. Pellentesque lobortis mattis mauris, non feugiat dolor vulputate a. Cras porttitor dapibus lacus at pulvinar. Praesent eu nunc et libero porttitor malesuada tempus quis massa. Aenean cursus ipsum a velit ultricies sagittis. Sed non leo ullamcorper, suscipit massa ut, pulvinar erat. Aliquam erat volutpat. Nulla non lacus vitae mi placerat tincidunt et ac diam. Aliquam tincidunt augue sem, ut vestibulum est volutpat eget. Suspendisse potenti. Integer condimentum, risus nec maximus elementum, lacus purus porta arcu, at ultrices diam nisl eget urna. Curabitur sollicitudin diam quis sollicitudin varius. Ut porta erat ornare laoreet euismod. In tincidunt purus dui, nec egestas dui convallis non. In vestibulum ipsum in dictum scelerisque.
-
-% \begin{description}
-% 	\item[A.4. Yet another subheading.]{}
-% \end{description}
-
-% Aenean feugiat pellentesque venenatis. Sed faucibus tristique tortor vel ultrices. Donec consequat tellus sapien. Nam bibendum urna mauris, eget sagittis justo gravida vel. Mauris nisi lacus, malesuada sit amet neque ut, venenatis tempor orci. Curabitur feugiat sagittis molestie. Duis euismod arcu vitae quam scelerisque facilisis. Praesent volutpat eleifend tortor, in malesuada dui egestas id. Donec finibus ac risus sed pellentesque. Donec malesuada non magna nec feugiat. Mauris eget nibh nec orci congue porttitor vitae eu erat. Sed commodo ipsum ipsum, in elementum neque gravida euismod. Cras mi lacus, pulvinar ut sapien ut, rutrum sagittis dui. Donec non est a metus varius finibus. Pellentesque rutrum pellentesque ligula, vitae accumsan nulla hendrerit ut.
-
-% In mi mauris, finibus non faucibus non, imperdiet nec leo. In erat arcu, tincidunt nec aliquam et, volutpat eget nisl. Vivamus id eros scelerisque est condimentum condimentum at at ligula. Proin blandit sapien ac bibendum faucibus. Nunc sem elit, blandit in lectus vitae, lacinia hendrerit risus. Donec efficitur elementum massa, eget interdum nunc porttitor sed. Aenean porttitor gravida nibh, vel bibendum tellus. Nunc fermentum lobortis nunc. Cras aliquet odio mauris, eget lobortis metus lacinia sit amet. Maecenas id elit eu orci ornare ultricies. Sed consequat turpis id accumsan malesuada. Fusce varius imperdiet ex, vel sodales purus scelerisque id. Morbi ut tellus interdum, laoreet leo non, dignissim odio. Nunc vel quam diam. Sed eu tortor in dolor mattis rhoncus.
-
-% %----------------------------------------------------------------------------------------
-% %	INNOVATION
-% %----------------------------------------------------------------------------------------
-
-% \section*{B. Innovation}
-
-% \begin{description}
-% 	\item[B.1. Instructions.]{}
-% \end{description}
-
-% Explain how the application challenges and seeks to shift current research or clinical practice paradigms.
-
-% Describe any novel theoretical concepts, approaches or methodologies, instrumentation or interventions to be developed or used, and any advantage over existing methodologies, instrumentation, or interventions.
-
-% Explain any refinements, improvements, or new applications of theoretical concepts, approaches or methodologies, instrumentation, or interventions.
-
-% %----------------------------------------------------------------------------------------
-% %	APPROACH
-% %----------------------------------------------------------------------------------------
-
-% \section*{C. Approach}
-
-% \begin{description}
-% 	\item[C.1. Instructions.]{}
-% \end{description}
-
-% Describe the overall strategy, methodology, and analyses to be used to accomplish the specific aims of the project. Unless addressed separately in Item 15 (Resource Sharing Plan), include how the data will be collected, analyzed, and interpreted as well as any resource sharing plans as appropriate.
-
-% Discuss potential problems, alternative strategies, and benchmarks for success anticipated to achieve the aims.
-
-% If the project is in the early stages of development, describe any strategy to establish feasibility, and address the management of any high risk aspects of the proposed work.
-
-% Point out any procedures, situations, or materials that may be hazardous to personnel and precautions to be exercised. A full discussion on the use of Select Agents should appear in Item 11, below.
-
-% As applicable, also include the following information as part of the Research Strategy, keeping within the three sections listed above: Significance, Innovation, and Approach.
-
-% \begin{description}
-% 	\item[C.2. Preliminary Studies for New Applications]{}
-% \end{description}
-
-% Preliminary Studies for New Applications: For new applications, include information on Preliminary Studies. Discuss the PD/PI's preliminary studies, data, and or experience pertinent to this application. Except for Exploratory/Developmental Grants (R21/R33), Small Research Grants (R03), and Academic Research Enhancement Award (AREA) Grants (R15), preliminary data can be an essential part of a research grant application and help to establish the likelihood of success of the proposed project. Early Stage Investigators should include preliminary data (however, for R01 applications, reviewers will be instructed to place less emphasis on the preliminary data in application from Early Stage Investigators than on the preliminary data in applications from more established investigators).
-
-% %----------------------------------------------------------------------------------------
-% %	PROGRESS REPORT
-% %----------------------------------------------------------------------------------------
-
-% \newpage
-
-% \section*{5. Progress Report Publication List (Renewal Applications Only)}
-
-% List the titles and complete references to all appropriate publications, manuscripts accepted for publication, patents, and other printed materials that have resulted from the project since it was last reviewed competitively. When citing articles that fall under the Public Access Policy, were authored or co-authored by the applicant and arose from NIH support, provide the NIH Manuscript Submission reference number (e.g., NIHMS97531) or the Pubmed Central (PMC) reference number (e.g., PMCID234567) for each article. If the PMCID is not yet available because the Journal submits articles directly to PMC on behalf of their authors, indicate "PMC Journal -- In Process." A list of these journals is posted at: http://publicaccess.nih.gov/submit\_process\_journals.htm.
-
-% Citations that are not covered by the Public Access Policy, but are publicly available in a free, online format may include URLs or PMCID numbers along with the full reference (note that copies of these publications are not accepted as appendix material, see Part I Section 5.5.15 for more information).
-
-% %----------------------------------------------------------------------------------------
-% %	PROTECTION OF HUMAN SUBJECTS
-% %----------------------------------------------------------------------------------------
-
-% \newpage
-
-% \section*{6. Protection of Human Subjects}
-
-% Refer to Part II, Supplemental Instructions for Preparing the Human Subjects Section of the Research Plan.
-
-% This section is required for applicants answering "yes" to the question "Are human subjects involved?" on the R\&R Other Project Information form. If the answer is "No" to the question but the proposed research involves human specimens and/or data from subjects applicants must provide a justification in this section for the claim that no human subjects are involved.
-
-% Do not use the protection of human subjects section to circumvent the page limits of the Research Strategy.
-
-% %----------------------------------------------------------------------------------------
-% %	INCLUSION OF WOMEN AND MINORITIES
-% %----------------------------------------------------------------------------------------
-
-% \newpage
-
-% \section*{7. Inclusion of Women and Minorities}
-
-% Refer to Part II, Supplemental Instructions for Preparing the Human Subjects Section of the Research Plan. This section is required for applicants answering "yes" to the question "Are human subjects involved?" on the R\&R Other Project Information form and the research does not fall under Exemption 4.
-
-% %----------------------------------------------------------------------------------------
-% %	INCLUSION OF CHILDREN
-% %----------------------------------------------------------------------------------------
-
-% \newpage
-
-% %\section*{8. Targeted/Planned Enrollment} - form to fill out 
-% \section*{9. Inclusion of Children}
-
-% Refer to Supplemental Instructions for Preparing the Human Subjects Section of the Research Plan, Sections 4.4 and 5.7. For applicants answering "Yes" to the question "Are human subjects involved" on the R\&R Other Project Information Form and the research does not fall under Section 4, this section is required.
-
-% %----------------------------------------------------------------------------------------
-% %	VERTEBRATE ANIMALS
-% %----------------------------------------------------------------------------------------
-
-% \newpage
-
-% \section*{10. Vertebrate Animals}
-
-% If Vertebrate Animals are involved in the project, address each of the five points below. This section should be a concise, complete description of the animals and proposed procedures. While additional details may be included in the Research Strategy, the responses to the five required points below must be cohesive and include sufficient detail to allow evaluation by peer reviewers and NIH staff. If all or part of the proposed research involving vertebrate animals will take place at alternate sites (such as project/performance or collaborating site(s)), identify those sites and describe the activities at those locations. Although no specific page limitation applies to this section of the application, be succinct. Failure to address the following five points will result in the application being designated as incomplete and will be grounds for the PHS to defer the application from the peer review round. Alternatively, the application’s impact/priority score may be negatively affected.
-
-% If the involvement of animals is indefinite, provide an explanation and indicate when it is anticipated that animals will be used. If an award is made, prior to the involvement of animals the grantee must submit to the NIH awarding office detailed information as required in points 1-5 above and verification of IACUC approval. If the grantee does not have an Animal Welfare Assurance then an appropriate Assurance will be required (See Part III, Section 2.2 Vertebrate Animals for more information).
-% The five points are as follows:
-
-% \begin{enumerate}
-% 	\item Provide a detailed description of the proposed use of the animals in the work outlined in the Research Strategy section. Identify the species, strains, ages, sex, and numbers of animals to be used in the proposed work.
-% 	\item Justify the use of animals, the choice of species, and the numbers to be used. If animals are in short supply, costly, or to be used in large numbers, provide an additional rationale for their selection and numbers.
-% 	\item Provide information on the veterinary care of the animals involved.
-% 	\item Describe the procedures for ensuring that discomfort, distress, pain, and injury will be limited to that which is unavoidable in the conduct of scientifically sound research. Describe the use of analgesic, anesthetic, and tranquilizing drugs and/or comfortable restraining devices, where appropriate, to minimize discomfort, distress, pain, and injury.
-% 	\item Describe any method of euthanasia to be used and the reasons for its selection. State whether this method is consistent with the recommendations of the American Veterinary Medical Association (AVMA) Guidelines on Euthanasia. If not, include a scientific justification for not following the recommendations.
-% \end{enumerate}
-
-% Do not use the vertebrate animal section to circumvent the page limits of the Research Strategy.
-
-% %----------------------------------------------------------------------------------------
-% %	SELECT AGENT RESEARCH
-% %----------------------------------------------------------------------------------------
-
-% \newpage
-
-% \section*{11. Select Agent Research}
-
-% Select Agents are hazardous biological agents and toxins that have been identified by DHHS or USDA as having the potential to pose a severe threat to public health and safety, to animal and plant health, or to animal and plant products. CDC maintains a list of these agents. See http://www.cdc.gov/od/sap/docs/salist.pdf.
-
-% %----------------------------------------------------------------------------------------
-% %	MULTIPLE PD/PI LEADERSHIP PLAN
-% %----------------------------------------------------------------------------------------
-
-% \newpage
-
-% \section*{12. Multiple PD/PI Leadership Plan}
-
-% For applications designating multiple PD/PIs, a leadership plan must be included. A rationale for choosing a multiple PD/PI approach should be described. The governance and organizational structure of the leadership team and the research project should be described, including communication plans, process for making decisions on scientific direction, and procedures for resolving conflicts. The roles and administrative, technical, and scientific responsibilities for the project or program should be delineated for the PD/PIs and other collaborators.
-
-% If budget allocation is planned, the distribution of resources to specific components of the project or the individual PD/PIs should be delineated in the Leadership Plan. In the event of an award, the requested allocations may be reflected in a footnote on the Notice of Grant Award.
-
-% %----------------------------------------------------------------------------------------
-% %	CONSORTIUM/CONTRACTUAL ARRANGEMENTS
-% %----------------------------------------------------------------------------------------
-
-% \newpage
-
-% \section*{13. Consortium/Contractual Arrangements}
-
-% Explain the programmatic, fiscal, and administrative arrangements to be made between the applicant organization and the consortium organization(s). If consortium/contractual activities represent a significant portion of the overall project, explain why the applicant organization, rather than the ultimate performer of the activities, should be the grantee. The signature of the Authorized Organization Representative on the SF424 (R\&R) cover component (Item 17) signifies that the applicant and all proposed consortium participants understand and agree to the following statement:
-
-% \emph{The appropriate programmatic and administrative personnel of each organization involved in this grant application are aware of the agency's consortium agreement policy and are prepared to establish the necessary inter-organizational agreement(s) consistent with that policy.}
-
-% %----------------------------------------------------------------------------------------
-% %	RESOURCE SHARING
-% %----------------------------------------------------------------------------------------
-
-% \newpage
-
-% %   \section*{14. Letters of Support} - letters to attach
-% \section*{15. Resource Sharing}
-
-% NIH considers the sharing of unique research resources developed through NIH-sponsored research an important means to enhance the value and further the advancement of the research. When resources have been developed with NIH funds and the associated research findings published or provided to NIH, it is important that they be made readily available for research purposes to qualified individuals within the scientific community. See Part III, 1.5 Sharing Research Resources.
-
-% \begin{enumerate}
-% 	\item{Data Sharing Plan:} Investigators seeking \$500,000 or more in direct costs (exclusive of consortium F\&A) in any year are expected to include a brief 1-paragraph description of how final research data will be shared, or explain why data-sharing is not possible. Specific Funding Opportunity Announcements may require that all applications include this information regardless of the dollar level. Applicants are encouraged to read the specific opportunity carefully and discuss their data-sharing plan with their program contact at the time they negotiate an agreement with the Institute/Center (IC) staff to accept assignment of their application. See Data-Sharing Policy or http://grants.nih.gov/grants/guide/notice- files/NOT-OD-03-032.html.
-% 	\item{Sharing Model Organisms:} Regardless of the amount requested, all applications where the development of model organisms is anticipated are expected to include a description of a specific plan for sharing and distributing unique model organisms or state why such sharing is restricted or not possible. See Sharing Model Organisms Policy, and NIH Guide NOT-OD-04-042.
-% 	\item{Genome Wide Association Studies (GWAS):} Applicants seeking funding for a genome-wide association study are expected to provide a plan for submission of GWAS data to the NIH-designated GWAS data repository, or an appropriate explanation why submission to the repository is not possible. GWAS is defined as any study of genetic variation across the entire genome that is designed to identify genetic associations with observable traits (such as blood pressure or weight) or the presence or absence of a disease or condition. For further information see Policy for Sharing of Data Obtained in NIH Supported or Conducted Genome-Wide Association Studies, NIH Guide NOT-OD-07-088, and http://grants.nih.gov/grants/gwas/.
-% \end{enumerate}
