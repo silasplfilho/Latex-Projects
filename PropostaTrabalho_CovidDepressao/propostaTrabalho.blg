@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: propostaTrabalho.aux
+The style file: nihunsrt.bst
+Database file #1: bibliografia.bib
+Warning--empty school in Nolasco2016
+You've used 26 entries,
+            1817 wiz_defined-function locations,
+            638 strings with 10393 characters,
+and the built_in function-call counts, 8113 in all, are:
+= -- 767
+> -- 380
+< -- 12
++ -- 137
+- -- 111
+* -- 565
+:= -- 1206
+add.period$ -- 85
+call.type$ -- 26
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 359
+empty$ -- 732
+format.name$ -- 111
+if$ -- 1884
+int.to.chr$ -- 0
+int.to.str$ -- 26
+missing$ -- 26
+newline$ -- 132
+num.names$ -- 26
+pop$ -- 70
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 256
+stack$ -- 0
+substring$ -- 614
+swap$ -- 142
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 75
+width$ -- 28
+write$ -- 301
+(There was 1 warning)

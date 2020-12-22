@@ -1,0 +1,171 @@
+\begin{thebibliography}{10}
+
+\bibitem{IHME}
+S.~L. James, D.~Abate, K.~H. Abate, et~al.
+\newblock Global, regional, and national incidence, prevalence, and years lived
+  with disability for 354 diseases and injuries for 195 countries and
+  territories, 1990--2017: a systematic analysis for the Global Burden of
+  Disease Study 2017.
+\newblock {\em The Lancet}, 392(10159):1789--1858, 2018.
+
+\bibitem{brody2018prevalence}
+D.~J. Brody, L.~A. Pratt, and J.~P. Hughes.
+\newblock Prevalence of depression among adults aged 20 and over: United
+  States, 2013-2016.
+\newblock {\em National Center for Health Statistics}, 2018.
+
+\bibitem{Lech2014}
+M.~Lech, L.-S. Low, and K.~E. Ooi.
+\newblock Detection and prediction of clinical depression.
+\newblock In {\em Mental Health Informatics}, pages 185--199. Springer, 2014.
+
+\bibitem{elkin2008america}
+N.~Elkin.
+\newblock How America searches: Health and wellness.
+\newblock {\em Opinion Research Corporation: iCrossing}, pages 1--17, 2008.
+
+\bibitem{PMID:32298802}
+C.~Wang, R.~Pan, X.~Wan, Y.~Tan, L.~Xu, R.~S. McIntyre, F.~N. Choo, B.~Tran,
+  R.~Ho, V.~K. Sharma, and C.~Ho.
+\newblock A longitudinal study on the mental health of general population
+  during the COVID-19 epidemic in China.
+\newblock {\em Brain, behavior, and immunity}, 87:40—48, July 2020.
+
+\bibitem{wang2020immediate}
+C.~Wang, R.~Pan, X.~Wan, Y.~Tan, L.~Xu, C.~S. Ho, and R.~C. Ho.
+\newblock Immediate psychological responses and associated factors during the
+  initial stage of the 2019 coronavirus disease (COVID-19) epidemic among the
+  general population in China.
+\newblock {\em International journal of environmental research and public
+  health}, 17(5):1729, 2020.
+
+\bibitem{info:doi/10.2196/19292}
+V.~I.~O. Agyapong, M.~Hrabok, W.~Vuong, A.~Gusnowski, R.~Shalaby, K.~Mrklas,
+  D.~Li, L.~Urichuk, M.~Snaterse, S.~Surood, B.~Cao, X.-M. Li, R.~Greiner, and
+  A.~J. Greenshaw.
+\newblock Closing the Psychological Treatment Gap During the COVID-19 Pandemic
+  With a Supportive Text Messaging Program: Protocol for Implementation and
+  Evaluation.
+\newblock {\em JMIR Res Protoc}, 9(6):e19292, Jun 2020.
+
+\bibitem{info:doi/10.2196/20185}
+J.~F. Huckins, A.~W. daSilva, W.~Wang, E.~Hedlund, C.~Rogers, S.~K. Nepal,
+  J.~Wu, M.~Obuchi, E.~I. Murphy, M.~L. Meyer, D.~D. Wagner, P.~E. Holtzheimer,
+  and A.~T. Campbell.
+\newblock Mental Health and Behavior of College Students During the Early
+  Phases of the COVID-19 Pandemic: Longitudinal Smartphone and Ecological
+  Momentary Assessment Study.
+\newblock {\em J Med Internet Res}, 22(6):e20185, Jun 2020.
+
+\bibitem{info:doi/10.2196/19866}
+J.~Ye.
+\newblock The Role of Health Technology and Informatics in a Global Public
+  Health Emergency: Practices and Implications From the COVID-19 Pandemic.
+\newblock {\em JMIR Med Inform}, 8(7):e19866, Jul 2020.
+
+\bibitem{Horvitz}
+E.~Horvitz and D.~Mulligan.
+\newblock {Data, privacy, and the greater good}.
+\newblock {\em Science}, 349(6245):253--255, jul 2015.
+
+\bibitem{american2013diagnostic}
+A.~P. Association et~al.
+\newblock {\em Diagnostic and statistical manual of mental disorders
+  (DSM-5{\textregistered})}.
+\newblock American Psychiatric Pub, 2013.
+
+\bibitem{freud1917mourning}
+S.~Freud.
+\newblock Mourning and Melancholia. U: The Standard Edition of the Complete
+  Psychological Works of Sigmund Freud, Volume XIV (1914-1916): On the History
+  of the Psycho-Analytic Movement, Papers on Metapsychology and Other Works,
+  1917.
+
+\bibitem{Razis2020}
+G.~Razis, I.~Anagnostopoulos, and S.~Zeadally.
+\newblock {Modeling Influence with Semantics in Social Networks}.
+\newblock {\em ACM Computing Surveys (CSUR)}, 53(1):1--38, feb 2020.
+
+\bibitem{aggarwal2011socialnetwork}
+C.~C. Aggarwal.
+\newblock {\em Social Network Data Analytics}.
+\newblock Springer Publishing Company, Incorporated, 1st edition, 2011.
+
+\bibitem{Rosenquist2011}
+J.~N. Rosenquist, J.~H. Fowler, and N.~A. Christakis.
+\newblock {Social network determinants of depression}.
+\newblock {\em Molecular Psychiatry}, 16(3):273--281, 2011. PMID: 20231839.
+
+\bibitem{Nolasco2016}
+D.~N.~F. Sousa.
+\newblock {Automatic Research Areas Identification in C{\&}T}.
+\newblock Master's thesis, 2016.
+
+\bibitem{DeChoudhury:2013:SMM:2464464.2464480}
+M.~{De Choudhury}, S.~Counts, and E.~Horvitz.
+\newblock {Social Media As a Measurement Tool of Depression in Populations}.
+\newblock In {\em Proc. of the 5th Annu. ACM Web Sci. Conf.}, WebSci '13, pages
+  47--56, New York, NY, USA, 2013. ACM.
+
+\bibitem{Tsugawa2015}
+S.~Tsugawa, Y.~Kikuchi, F.~Kishino, K.~Nakajima, Y.~Itoh, and H.~Ohsaki.
+\newblock {Recognizing Depression from Twitter Activity}.
+\newblock {\em Proceedings of the 33rd Annual ACM Conference on Human Factors
+  in Computing Systems - CHI '15}, pages 3187--3196, 2015.
+
+\bibitem{Park:2015:MDL:2675133.2675139}
+S.~Park, I.~Kim, S.~W. Lee, J.~Yoo, B.~Jeong, and M.~Cha.
+\newblock {Manifestation of Depression and Loneliness on Social Networks: A
+  Case Study of Young Adults on Facebook}.
+\newblock In {\em Proc. of the 18th ACM Conf. on Comput. Supported Cooperative
+  Work Social Comput.}, CSCW '15, pages 557--570, New York, NY, USA, 2015. ACM.
+
+\bibitem{andalibi_sensitive_2017}
+N.~Andalibi, P.~Ozturk, and A.~Forte.
+\newblock {Sensitive Self-disclosures, Responses, and Social Support on
+  Instagram: The Case of {\#}Depression}.
+\newblock In {\em Proc. of 2017 ACM Conf. on Comput. Supported Cooperative Work
+  and Social Comput.}, pages 1485--1500, Portland, OR, USA, 2017. ACM.
+
+\bibitem{Li2016}
+G.~Li, X.~Zhou, T.~Lu, J.~Yang, and N.~Gu.
+\newblock {SunForum: Understanding Depression in a Chinese Online Community}.
+\newblock In {\em Proc. of the 19th ACM Conf. on Comput.-Supported Cooperative
+  Work {\&} Social Comput.}, pages 514--525, New York, NY, USA, 2016. ACM
+  Press.
+
+\bibitem{Vedula2017}
+N.~Vedula and S.~Parthasarathy.
+\newblock {Emotional and Linguistic Cues of Depression from Social Media}.
+\newblock {\em Proceedings of the 2017 International Conference on Digital
+  Health - DH '17}, pages 127--136, 2017.
+
+\bibitem{Zhao:2018:TCM:3302425.3302501}
+X.~Zhao, S.~Lin, and Z.~Huang.
+\newblock {Text Classification of Micro-blog's ``Tree Hole" Based on
+  Convolutional Neural Network}.
+\newblock In {\em Proc. of the 2018 Int. Conf. on Algorithms, Comput. and
+  Artificial Intelligence}, ACAI 2018, pages 61:1----61:5, New York, NY, USA,
+  2018. ACM.
+
+\bibitem{Nobles:2018:IIS:3173574.3173987}
+A.~L. Nobles, J.~J. Glenn, K.~Kowsari, B.~A. Teachman, and L.~E. Barnes.
+\newblock {Identification of Imminent Suicide Risk Among Young Adults Using
+  Text Messages}.
+\newblock In {\em Proc. of the 2018 CHI Conf. on Human Factors in Computing
+  Systems}, CHI '18, pages 413:1----413:11, New York, NY, USA, 2018. ACM.
+
+\bibitem{Yazdavar:2017:SAM:3110025.3123028}
+A.~H. Yazdavar, H.~S. Al-Olimat, M.~Ebrahimi, et~al.
+\newblock Semi-supervised approach to monitoring clinical depressive symptoms
+  in social media.
+\newblock In {\em Proc. of the 2017 IEEE/ACM Int. Conf. on Advances in Social
+  Networks Analysis and Mining 2017}, pages 1191--1198, 2017.
+
+\bibitem{Chen2018}
+X.~Chen, M.~D. Sykora, T.~W. Jackson, and S.~Elayan.
+\newblock {What about Mood Swings}.
+\newblock In {\em Companion Proc. of the The Web Conf. 2018}, pages 1653--1660,
+  New York, New York, USA, 2018. Int. World Wide Web Conf. Steering Committee.
+
+\end{thebibliography}

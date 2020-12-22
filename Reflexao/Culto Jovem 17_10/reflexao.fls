@@ -1,0 +1,30 @@
+PWD /home/silas/Projetos/Latex-Projects/Reflexao/Culto Jovem 17_10
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/silas/Projetos/Latex-Projects/Reflexao/Culto Jovem 17_10/reflexao.tex
+OUTPUT /home/silas/Projetos/Latex-Projects/Reflexao/Culto Jovem 17_10/reflexao.log
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /home/silas/Projetos/Latex-Projects/Reflexao/Culto Jovem 17_10/reflexao.aux
+INPUT /home/silas/Projetos/Latex-Projects/Reflexao/Culto Jovem 17_10/reflexao.aux
+OUTPUT /home/silas/Projetos/Latex-Projects/Reflexao/Culto Jovem 17_10/reflexao.aux
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+OUTPUT /home/silas/Projetos/Latex-Projects/Reflexao/Culto Jovem 17_10/reflexao.pdf
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /home/silas/Projetos/Latex-Projects/Reflexao/Culto Jovem 17_10/reflexao.aux
+INPUT /home/silas/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
